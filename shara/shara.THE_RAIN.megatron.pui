@@ -1,26 +1,18 @@
 [Open Files]
-Active File Display Mode=3
-Active File Index=0
-Open File Line0=2166
-Open File Line1=0
-Open File Line2=0
-Open File Pos0=2958
-Open File Pos1=0
-Open File Pos2=805
-Open File Window Pos0=2,3,-1,-1,-8,-30,25,25,828,587
-Open File Window Pos1=0,1,-1,-1,-8,-30,250,250,1053,810
-Open File Window Pos2=0,1,-1,-1,-8,-30,25,25,157,468
-Open File0=C:\Users\megatron\Documents\shara\shara\public\music-player\plugin\css\style.css
-Open File1=C:\Users\megatron\Documents\shara\shara\lib\Shara.pm
-Open File2=C:\Users\megatron\Documents\shara\shara\public\music-player\demo\css\demo.css
-Open File3=
+Active File Display Mode=-1
+Open File0=
 Remember Files=1
 
 [Project Information]
 Project Start=DD07070006000D00120029001000000049
 
 [Folders]
-.\lib\=1
+.\lib\ - Shara=1
+.\public\ - music-player=1
+.\public\ - music-player - demo=1
+.\public\ - music-player - demo - css=1
+.\public\ - music-player - plugin=1
+.\public\ - music-player - plugin - css=1
 lib=1
 lib - .\lib\Shara\=1
 

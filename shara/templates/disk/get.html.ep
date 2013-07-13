@@ -1,6 +1,6 @@
-% layout 'default';
+% layout 'shara';
 % title 'Shara';
-% use URI::Escape;
+
 % my $tracks = stash ('tracks') || [];
 % my $cover = stash ('cover');
 
@@ -17,8 +17,8 @@
         $(document).ready(function(){
 % use Mojo::JSON;
 % my $json = Mojo::JSON->new;
-% $cover = '/file/' . stash("dir") .  $cover if $cover;
-% my $pl = [map {{mp3 => '/file/' . stash('dir') . $_->{file}, title => $_->{title}, cover => $cover}} @$tracks];
+% $cover = '/file/' . stash("path") .  $cover if $cover;
+% my $pl = $tracks;
         	var myPlaylist = <%== $json->encode($pl) %>;
         	
             var description = '';
@@ -46,20 +46,21 @@
 <div class="span6">
 
 <ul class="nav nav-tabs  nav-stacked tracks" style="height: 190px;">
-% if (stash 'dir') {
+% if (stash 'path') {
 	<li><a href="../">..</a></li>
 % }
 % for (@$dirs) {
-	<li><a href="/d/<%= stash 'dir' %><%= $_  %>/"><strong><%= $_ %></strong></a></li>
+	<li><a href="/d/<%= stash 'path' %><%= $_  %>/"><strong><%= $_ %></strong></a></li>
 % }
 
-% for (my $i = 0 ; $i < @$tracks ; $i ++) {
-	<li class="track nav nav-tabs nav-stacked" rel="<%= $i %>"><a class="title" href="/file/<%= stash 'dir' %><%= $tracks->[$i]->{file}  %>"><%= $tracks->[$i]->{title} %></a></li>
+% if (@$tracks) {
+% 	for (my $i = 0 ; $i < @$tracks ; $i ++) {
+	<li class="track nav nav-tabs nav-stacked" rel="<%= $i %>"><a class="title" href="/d/<%= stash 'path' %><%= $tracks->[$i]->{file}  %>"><%= $tracks->[$i]->{title} %></a></li>
+% 	}
+	<li><hr/></li>
 % }
-
-<li><hr/></li>
 % for (@{stash ('others') || []}) {
-	<li><a href="/file/<%= stash 'dir' %><%= $_  %>"><%= $_ %></a></li>
+	<li><a href="/d/<%= stash 'path' %><%= $_  %>"><%= $_ %></a></li>
 % }
 
 

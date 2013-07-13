@@ -14720,3 +14720,1965 @@ Compilation failed in require at (eval 248) line 1.
 [Sat Jul 13 18:49:56 2013] [debug] Rendering cached template "list/list.html.ep".
 [Sat Jul 13 18:49:56 2013] [debug] Rendering cached template "layouts/default.html.ep".
 [Sat Jul 13 18:49:56 2013] [debug] 200 OK (0.007590s, 131.752/s).
+[Sat Jul 13 18:56:17 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 18:56:17 2013] [debug] GET "/file/%5B1993%5D%20Incunabula/07-Doctrine.mp3".
+[Sat Jul 13 18:56:17 2013] [debug] Routing to controller "Shara::Disk" and action "file".
+[Sat Jul 13 18:56:17 2013] [debug] 206 Partial Content (0.330185s, 3.029/s).
+[Sat Jul 13 19:01:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:01:58 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/".
+[Sat Jul 13 19:01:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:01:58 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:01:58 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:01:58 2013] [debug] 200 OK (0.300778s, 3.325/s).
+[Sat Jul 13 19:02:00 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:02:00 2013] [debug] GET "/file/01%20-%20Xylin%20Room.mp3".
+[Sat Jul 13 19:02:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:00 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:02:00 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:02:00 2013] [debug] 404 Not Found (0.029977s, 33.359/s).
+[Sat Jul 13 19:02:00 2013] [debug] GET "/file/front.jpg".
+[Sat Jul 13 19:02:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:00 2013] [debug] 404 Not Found (0.009860s, 101.420/s).
+[Sat Jul 13 19:02:03 2013] [debug] GET "/".
+[Sat Jul 13 19:02:03 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:03 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:02:03 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:02:03 2013] [debug] 200 OK (0.243096s, 4.114/s).
+[Sat Jul 13 19:02:09 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 19:02:09 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:09 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:02:09 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:02:09 2013] [debug] 200 OK (0.048912s, 20.445/s).
+[Sat Jul 13 19:02:09 2013] [debug] GET "/file/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:02:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:09 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:09 2013] [debug] 404 Not Found (0.012210s, 81.900/s).
+[Sat Jul 13 19:02:09 2013] [debug] GET "/file/front.jpg".
+[Sat Jul 13 19:02:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:09 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:09 2013] [debug] 404 Not Found (0.013605s, 73.502/s).
+[Sat Jul 13 19:02:51 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 19:02:51 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:51 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:02:51 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:02:51 2013] [debug] 200 OK (0.025673s, 38.951/s).
+[Sat Jul 13 19:02:53 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:02:53 2013] [debug] GET "/file/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:02:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:53 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:53 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:02:53 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:02:53 2013] [debug] 404 Not Found (0.036415s, 27.461/s).
+[Sat Jul 13 19:02:53 2013] [debug] GET "/file/front.jpg".
+[Sat Jul 13 19:02:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:53 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:53 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:53 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:53 2013] [debug] 404 Not Found (0.009997s, 100.030/s).
+[Sat Jul 13 19:02:55 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 19:02:55 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:55 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:02:55 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:02:55 2013] [debug] 200 OK (0.227604s, 4.394/s).
+[Sat Jul 13 19:02:55 2013] [debug] GET "/file/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:02:55 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:55 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:55 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:55 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:55 2013] [debug] 404 Not Found (0.013061s, 76.564/s).
+[Sat Jul 13 19:02:56 2013] [debug] GET "/file/front.jpg".
+[Sat Jul 13 19:02:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:56 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:56 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:56 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:56 2013] [debug] 404 Not Found (0.017871s, 55.957/s).
+[Sat Jul 13 19:02:58 2013] [debug] GET "/d/back2.jpg".
+[Sat Jul 13 19:02:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:02:58 2013] [debug] 404 Not Found (0.029571s, 33.817/s).
+[Sat Jul 13 19:02:58 2013] [debug] GET "/d/mojo/prettify/run_prettify.js".
+[Sat Jul 13 19:02:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] 404 Not Found (0.016368s, 61.095/s).
+[Sat Jul 13 19:02:58 2013] [debug] GET "/d/mojo/jquery/jquery.js".
+[Sat Jul 13 19:02:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] 404 Not Found (0.034331s, 29.128/s).
+[Sat Jul 13 19:02:58 2013] [debug] GET "/d/mojo/prettify/prettify-mojo.css".
+[Sat Jul 13 19:02:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] 404 Not Found (0.016966s, 58.941/s).
+[Sat Jul 13 19:02:58 2013] [debug] GET "/d/mojo/logo-white.png".
+[Sat Jul 13 19:02:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] 404 Not Found (0.014126s, 70.791/s).
+[Sat Jul 13 19:02:58 2013] [debug] GET "/d/mojo/logo-black.png".
+[Sat Jul 13 19:02:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:02:58 2013] [debug] 404 Not Found (0.019941s, 50.148/s).
+[Sat Jul 13 19:03:00 2013] [debug] GET "/file/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:03:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:00 2013] [debug] 404 Not Found (0.015307s, 65.330/s).
+[Sat Jul 13 19:03:00 2013] [debug] GET "/file/front.jpg".
+[Sat Jul 13 19:03:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:00 2013] [debug] 404 Not Found (0.015246s, 65.591/s).
+[Sat Jul 13 19:03:02 2013] [debug] GET "/d/back.jpg".
+[Sat Jul 13 19:03:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] 404 Not Found (0.013531s, 73.904/s).
+[Sat Jul 13 19:03:02 2013] [debug] GET "/d/mojo/prettify/run_prettify.js".
+[Sat Jul 13 19:03:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] 404 Not Found (0.012465s, 80.225/s).
+[Sat Jul 13 19:03:02 2013] [debug] GET "/d/mojo/prettify/prettify-mojo.css".
+[Sat Jul 13 19:03:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] 404 Not Found (0.013777s, 72.585/s).
+[Sat Jul 13 19:03:02 2013] [debug] GET "/d/mojo/jquery/jquery.js".
+[Sat Jul 13 19:03:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] 404 Not Found (0.014730s, 67.889/s).
+[Sat Jul 13 19:03:02 2013] [debug] GET "/d/mojo/logo-white.png".
+[Sat Jul 13 19:03:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] 404 Not Found (0.014128s, 70.781/s).
+[Sat Jul 13 19:03:02 2013] [debug] GET "/d/mojo/logo-black.png".
+[Sat Jul 13 19:03:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:02 2013] [debug] 404 Not Found (0.013555s, 73.774/s).
+[Sat Jul 13 19:03:04 2013] [debug] GET "/file/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:03:04 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:04 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:04 2013] [debug] 404 Not Found (0.016722s, 59.801/s).
+[Sat Jul 13 19:03:04 2013] [debug] GET "/file/front.jpg".
+[Sat Jul 13 19:03:04 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:04 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:04 2013] [debug] 404 Not Found (0.014794s, 67.595/s).
+[Sat Jul 13 19:03:42 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:03:42 2013] [debug] GET "/".
+[Sat Jul 13 19:03:42 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:42 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:03:42 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:03:42 2013] [debug] 200 OK (0.209281s, 4.778/s).
+[Sat Jul 13 19:03:43 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:03:43 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:03:43 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:43 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:03:43 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:03:43 2013] [debug] 200 OK (0.217139s, 4.605/s).
+[Sat Jul 13 19:03:53 2013] [debug] GET "/".
+[Sat Jul 13 19:03:53 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:53 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:03:53 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:03:53 2013] [debug] 200 OK (0.032765s, 30.520/s).
+[Sat Jul 13 19:03:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:03:55 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 19:03:55 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:55 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:03:55 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:03:55 2013] [debug] 200 OK (0.229268s, 4.362/s).
+[Sat Jul 13 19:03:56 2013] [debug] GET "/file/%5B1997%5D%20Chiastic%20Slide/01-Cipater.mp3".
+[Sat Jul 13 19:03:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:56 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:56 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:03:56 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:03:56 2013] [debug] 404 Not Found (0.031642s, 31.604/s).
+[Sat Jul 13 19:03:56 2013] [debug] GET "/file/%5B1997%5D%20Chiastic%20Slide/front.jpg".
+[Sat Jul 13 19:03:56 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:03:56 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:03:56 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:56 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:03:56 2013] [debug] 404 Not Found (0.013958s, 71.644/s).
+[Sat Jul 13 19:03:57 2013] [debug] GET "/d/".
+[Sat Jul 13 19:03:57 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:57 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:03:57 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:03:57 2013] [debug] 200 OK (0.020892s, 47.865/s).
+[Sat Jul 13 19:03:58 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/".
+[Sat Jul 13 19:03:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:03:58 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:03:58 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:03:58 2013] [debug] 200 OK (0.010375s, 96.386/s).
+[Sat Jul 13 19:04:01 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/info.txt".
+[Sat Jul 13 19:04:01 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:04:01 2013] [debug] 200 OK (0.002254s, 443.656/s).
+[Sat Jul 13 19:04:04 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/back.jpg".
+[Sat Jul 13 19:04:04 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:04:04 2013] [debug] 200 OK (0.003494s, 286.205/s).
+[Sat Jul 13 19:04:13 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/10%20-%20Reniform%20Puls.mp3".
+[Sat Jul 13 19:04:13 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:04:13 2013] [debug] 200 OK (0.001875s, 533.333/s).
+[Sat Jul 13 19:04:14 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:04:14 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/10%20-%20Reniform%20Puls.mp3".
+[Sat Jul 13 19:04:14 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:04:14 2013] [debug] 206 Partial Content (0.001611s, 620.732/s).
+[Sat Jul 13 19:04:16 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:05:23 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/".
+[Sat Jul 13 19:05:23 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:23 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:05:23 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:05:23 2013] [debug] 200 OK (0.009629s, 103.853/s).
+[Sat Jul 13 19:05:24 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:05:24 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/".
+[Sat Jul 13 19:05:24 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:24 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:05:24 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:05:24 2013] [debug] 200 OK (0.358994s, 2.786/s).
+[Sat Jul 13 19:05:26 2013] [debug] GET "/file/%5B2003%5D%20Draft%207.30/10%20-%20Reniform%20Puls.mp3".
+[Sat Jul 13 19:05:26 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:05:26 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:05:26 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:05:26 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:05:26 2013] [debug] 404 Not Found (0.034824s, 28.716/s).
+[Sat Jul 13 19:05:28 2013] [debug] GET "/d/%5B2003%5D%20Draft%207.30/09%20-%20V-Proc.mp3".
+[Sat Jul 13 19:05:28 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:28 2013] [debug] 200 OK (0.002514s, 397.772/s).
+[Sat Jul 13 19:05:32 2013] [debug] GET "/d/".
+[Sat Jul 13 19:05:32 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:32 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:05:32 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:05:32 2013] [debug] 200 OK (0.032039s, 31.212/s).
+[Sat Jul 13 19:05:34 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 19:05:34 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:34 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:05:34 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:05:34 2013] [debug] 200 OK (0.014771s, 67.700/s).
+[Sat Jul 13 19:05:34 2013] [debug] GET "/file/%5B1993%5D%20Incunabula/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:05:34 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:05:34 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:05:34 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:34 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:34 2013] [debug] 404 Not Found (0.011372s, 87.935/s).
+[Sat Jul 13 19:05:41 2013] [debug] GET "/file/%5B1993%5D%20Incunabula/08-Maetl.mp3".
+[Sat Jul 13 19:05:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:05:41 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:05:41 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:41 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:41 2013] [debug] 404 Not Found (0.009766s, 102.396/s).
+[Sat Jul 13 19:05:50 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 19:05:50 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:50 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:05:50 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:05:50 2013] [debug] 200 OK (0.009068s, 110.278/s).
+[Sat Jul 13 19:05:50 2013] [debug] GET "/file/%5B1993%5D%20Incunabula/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:05:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:05:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:05:50 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:50 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:50 2013] [debug] 404 Not Found (0.015880s, 62.972/s).
+[Sat Jul 13 19:05:52 2013] [debug] GET "/".
+[Sat Jul 13 19:05:52 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:52 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:05:52 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:05:52 2013] [debug] 200 OK (0.009092s, 109.987/s).
+[Sat Jul 13 19:05:56 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:05:56 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:56 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:05:56 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:05:56 2013] [debug] 200 OK (0.009596s, 104.210/s).
+[Sat Jul 13 19:05:57 2013] [debug] GET "/file/%5B2005%5D%20Untilted/01%20-%20LCC.mp3".
+[Sat Jul 13 19:05:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:05:57 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:05:57 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:57 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:57 2013] [debug] 404 Not Found (0.010249s, 97.570/s).
+[Sat Jul 13 19:05:57 2013] [debug] GET "/file/%5B2005%5D%20Untilted/vinyl%20back.jpg".
+[Sat Jul 13 19:05:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:05:57 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:05:57 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:57 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:05:57 2013] [debug] 404 Not Found (0.009560s, 104.603/s).
+[Sat Jul 13 19:05:59 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:05:59 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:05:59 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:05:59 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:05:59 2013] [debug] 200 OK (0.005311s, 188.288/s).
+[Sat Jul 13 19:06:00 2013] [debug] GET "/file/%5B2005%5D%20Untilted/01%20-%20LCC.mp3".
+[Sat Jul 13 19:06:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:00 2013] [debug] 404 Not Found (0.011873s, 84.225/s).
+[Sat Jul 13 19:06:00 2013] [debug] GET "/file/%5B2005%5D%20Untilted/vinyl%20back.jpg".
+[Sat Jul 13 19:06:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:00 2013] [debug] 404 Not Found (0.010147s, 98.551/s).
+[Sat Jul 13 19:06:01 2013] [debug] GET "/file/%5B2005%5D%20Untilted/01%20-%20LCC.mp3".
+[Sat Jul 13 19:06:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:01 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:01 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:01 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:01 2013] [debug] 404 Not Found (0.009532s, 104.910/s).
+[Sat Jul 13 19:06:01 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:06:02 2013] [debug] GET "/file/%5B2005%5D%20Untilted/vinyl%20back.jpg".
+[Sat Jul 13 19:06:02 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:02 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:02 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:02 2013] [debug] 404 Not Found (0.010319s, 96.909/s).
+[Sat Jul 13 19:06:04 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:06:04 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:06:04 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:06:04 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:06:04 2013] [debug] 200 OK (0.005293s, 188.929/s).
+[Sat Jul 13 19:06:04 2013] [debug] GET "/file/%5B2005%5D%20Untilted/01%20-%20LCC.mp3".
+[Sat Jul 13 19:06:04 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:04 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:04 2013] [debug] 404 Not Found (0.010522s, 95.039/s).
+[Sat Jul 13 19:06:04 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:06:04 2013] [debug] GET "/file/%5B2005%5D%20Untilted/vinyl%20back.jpg".
+[Sat Jul 13 19:06:04 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:04 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:04 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:04 2013] [debug] 404 Not Found (0.010373s, 96.404/s).
+[Sat Jul 13 19:06:04 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:06:05 2013] [debug] GET "/file/%5B2005%5D%20Untilted/02%20-%20Ipacial%20Section.mp3".
+[Sat Jul 13 19:06:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:05 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:05 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:05 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:05 2013] [debug] 404 Not Found (0.010122s, 98.795/s).
+[Sat Jul 13 19:06:05 2013] [debug] GET "/file/%5B2005%5D%20Untilted/vinyl%20back.jpg".
+[Sat Jul 13 19:06:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:06:05 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:06:05 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:05 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:06:05 2013] [debug] 404 Not Found (0.010720s, 93.284/s).
+[Sat Jul 13 19:06:08 2013] [debug] GET "/d/".
+[Sat Jul 13 19:06:08 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:06:08 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:06:08 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:06:08 2013] [debug] 200 OK (0.007576s, 131.996/s).
+[Sat Jul 13 19:06:21 2013] [debug] GET "/d/".
+[Sat Jul 13 19:06:21 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:06:21 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:06:21 2013] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Jul 13 19:06:21 2013] [debug] 200 OK (0.007695s, 129.955/s).
+[Sat Jul 13 19:06:23 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:06:23 2013] [debug] GET "/d/%5B1998%5D%20LP5/".
+[Sat Jul 13 19:06:23 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:06:23 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:06:23 2013] [debug] Rendering template "layouts/default.html.ep".
+[Sat Jul 13 19:06:23 2013] [debug] 200 OK (0.227240s, 4.401/s).
+[Sat Jul 13 19:06:23 2013] [debug] GET "/d/%5B1998%5D%20LP5/01-Acroyear2.mp3".
+[Sat Jul 13 19:06:23 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:06:23 2013] [debug] 206 Partial Content (0.001655s, 604.230/s).
+[Sat Jul 13 19:06:29 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:06:29 2013] [debug] GET "/d/%5B1998%5D%20LP5/02-777.mp3".
+[Sat Jul 13 19:06:29 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:06:29 2013] [debug] 206 Partial Content (0.001676s, 596.659/s).
+[Sat Jul 13 19:07:45 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:07:45 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 19:07:45 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:45 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:07:45 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:07:45 2013] [debug] 200 OK (0.217514s, 4.597/s).
+[Sat Jul 13 19:07:46 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/01-Kalpol%20Introl.mp3".
+[Sat Jul 13 19:07:46 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:46 2013] [debug] 206 Partial Content (0.002483s, 402.739/s).
+[Sat Jul 13 19:07:47 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:07:47 2013] [debug] GET "/".
+[Sat Jul 13 19:07:47 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:47 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:07:47 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:07:47 2013] [debug] 200 OK (0.024743s, 40.415/s).
+[Sat Jul 13 19:07:48 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 19:07:48 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:48 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:07:48 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:07:48 2013] [debug] 200 OK (0.009448s, 105.843/s).
+[Sat Jul 13 19:07:48 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/01-Cipater.mp3".
+[Sat Jul 13 19:07:48 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:48 2013] [debug] 206 Partial Content (0.002070s, 483.092/s).
+[Sat Jul 13 19:07:49 2013] [debug] GET "/file/%5B1997%5D%20Chiastic%20Slide/front.jpg".
+[Sat Jul 13 19:07:49 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:07:49 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:07:49 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:07:49 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:07:49 2013] [debug] 404 Not Found (0.039435s, 25.358/s).
+[Sat Jul 13 19:07:50 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 19:07:50 2013] [debug] GET "/".
+[Sat Jul 13 19:07:50 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:50 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:07:50 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:07:50 2013] [debug] 200 OK (0.007422s, 134.735/s).
+[Sat Jul 13 19:07:51 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:07:51 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:51 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:07:51 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:07:51 2013] [debug] 200 OK (0.007849s, 127.405/s).
+[Sat Jul 13 19:07:51 2013] [debug] GET "/d/%5B2005%5D%20Untilted/01%20-%20LCC.mp3".
+[Sat Jul 13 19:07:51 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:07:51 2013] [debug] 206 Partial Content (0.001958s, 510.725/s).
+[Sat Jul 13 19:08:06 2013] [debug] Inactivity timeout.
+[Sat Jul 13 19:12:20 2013] [debug] GET "/d/%5B1998%5D%20LP5/03-Rae.mp3".
+[Sat Jul 13 19:12:20 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:12:20 2013] [debug] 206 Partial Content (0.001698s, 588.928/s).
+[Sat Jul 13 19:18:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:18:55 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:18:55 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:18:55 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:18:55 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:18:55 2013] [debug] 200 OK (0.556203s, 1.798/s).
+[Sat Jul 13 19:18:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:18:57 2013] [debug] GET "/d/%5B2005%5D%20Untilted/vinyl%20back.jpg".
+[Sat Jul 13 19:18:57 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:18:57 2013] [debug] 200 OK (0.423529s, 2.361/s).
+[Sat Jul 13 19:19:36 2013] [debug] GET "/d/%5B1998%5D%20LP5/04-Melve.mp3".
+[Sat Jul 13 19:19:36 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:19:36 2013] [debug] 206 Partial Content (0.013374s, 74.772/s).
+[Sat Jul 13 19:19:57 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:19:57 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:19:57 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:19:57 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:19:57 2013] [debug] 200 OK (0.110198s, 9.075/s).
+[Sat Jul 13 19:19:58 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:19:58 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:19:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:19:58 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:19:58 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:19:58 2013] [debug] 200 OK (0.451202s, 2.216/s).
+[Sat Jul 13 19:20:15 2013] [debug] GET "/d/".
+[Sat Jul 13 19:20:15 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:15 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:20:15 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:20:15 2013] [debug] 200 OK (0.024123s, 41.454/s).
+[Sat Jul 13 19:20:16 2013] [debug] GET "/d/%5B1998%5D%20LP5/".
+[Sat Jul 13 19:20:16 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:17 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:20:17 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:20:17 2013] [debug] 200 OK (0.307796s, 3.249/s).
+[Sat Jul 13 19:20:17 2013] [debug] GET "/d/%5B1998%5D%20LP5/promo.jpg".
+[Sat Jul 13 19:20:17 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:17 2013] [debug] 200 OK (0.007321s, 136.593/s).
+[Sat Jul 13 19:20:38 2013] [debug] GET "/d/%5B1998%5D%20LP5/".
+[Sat Jul 13 19:20:38 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:38 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:20:38 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:20:38 2013] [debug] 200 OK (0.094589s, 10.572/s).
+[Sat Jul 13 19:20:40 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:20:40 2013] [debug] GET "/d/".
+[Sat Jul 13 19:20:41 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:41 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:20:41 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:20:41 2013] [debug] 200 OK (0.489451s, 2.043/s).
+[Sat Jul 13 19:20:41 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 19:20:41 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:42 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:20:42 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:20:42 2013] [debug] 200 OK (0.282092s, 3.545/s).
+[Sat Jul 13 19:20:42 2013] [debug] GET "/d/%5B2001%5D%20Confield/front.jpg".
+[Sat Jul 13 19:20:42 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:42 2013] [debug] 200 OK (0.003889s, 257.136/s).
+[Sat Jul 13 19:20:50 2013] [debug] GET "/d/%5B1998%5D%20LP5/05-Vose%20In.mp3".
+[Sat Jul 13 19:20:50 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:20:50 2013] [debug] 206 Partial Content (0.002477s, 403.714/s).
+[Sat Jul 13 19:21:34 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 19:21:34 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:21:34 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:21:34 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:21:34 2013] [debug] 200 OK (0.070605s, 14.163/s).
+[Sat Jul 13 19:21:36 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:21:37 2013] [debug] GET "/d/".
+[Sat Jul 13 19:21:37 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:21:38 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:21:38 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:21:38 2013] [debug] 200 OK (0.399655s, 2.502/s).
+[Sat Jul 13 19:21:39 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 19:21:39 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:21:39 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:21:39 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:21:39 2013] [debug] 200 OK (0.577629s, 1.731/s).
+[Sat Jul 13 19:21:40 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 19:21:40 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:21:40 2013] [debug] 200 OK (0.002662s, 375.657/s).
+[Sat Jul 13 19:21:42 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front%20double.jpg".
+[Sat Jul 13 19:21:42 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:21:42 2013] [debug] 200 OK (0.002246s, 445.236/s).
+[Sat Jul 13 19:21:45 2013] [debug] GET "/d/".
+[Sat Jul 13 19:21:45 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:21:45 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:21:45 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:21:45 2013] [debug] 200 OK (0.013487s, 74.145/s).
+[Sat Jul 13 19:21:46 2013] [debug] GET "/d/%5B2005%5D%20Untilted/".
+[Sat Jul 13 19:21:46 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:21:46 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:21:46 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:21:46 2013] [debug] 200 OK (0.054830s, 18.238/s).
+[Sat Jul 13 19:22:33 2013] [debug] GET "/d/".
+[Sat Jul 13 19:22:33 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:22:33 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:22:33 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:22:33 2013] [debug] 200 OK (0.011399s, 87.727/s).
+[Sat Jul 13 19:22:37 2013] [debug] GET "/".
+[Sat Jul 13 19:22:37 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:22:37 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:22:37 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:22:37 2013] [debug] 200 OK (0.032396s, 30.868/s).
+[Sat Jul 13 19:22:42 2013] [debug] GET "/".
+[Sat Jul 13 19:22:42 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:22:42 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:22:42 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:22:42 2013] [debug] 200 OK (0.012469s, 80.199/s).
+[Sat Jul 13 19:22:45 2013] [debug] GET "/d/%5B1998%5D%20LP5/".
+[Sat Jul 13 19:22:45 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:22:45 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:22:45 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:22:45 2013] [debug] 200 OK (0.510054s, 1.961/s).
+[Sat Jul 13 19:23:08 2013] [debug] GET "/".
+[Sat Jul 13 19:23:08 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:23:08 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:23:08 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:23:08 2013] [debug] 200 OK (0.028557s, 35.018/s).
+[Sat Jul 13 19:23:10 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 19:23:10 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:23:10 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:23:10 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:23:10 2013] [debug] 200 OK (0.197093s, 5.074/s).
+[Sat Jul 13 19:23:11 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/front.jpg".
+[Sat Jul 13 19:23:11 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:23:11 2013] [debug] 200 OK (0.002038s, 490.677/s).
+[Sat Jul 13 19:26:10 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:26:10 2013] [debug] GET "/".
+[Sat Jul 13 19:26:10 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:26:10 2013] [debug] Rendering template "singin/singin.html.ep".
+[Sat Jul 13 19:26:10 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:26:10 2013] [debug] 200 OK (0.124556s, 8.029/s).
+[Sat Jul 13 19:26:13 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:26:13 2013] [debug] GET "/d/%5B1998%5D%20LP5/06-Fold4,Wrap5.mp3".
+[Sat Jul 13 19:26:16 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:26:16 2013] [debug] 206 Partial Content (2.738187s, 0.365/s).
+[Sat Jul 13 19:27:08 2013] [debug] GET "/".
+[Sat Jul 13 19:27:08 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:27:08 2013] [debug] Rendering template "singin/singin.html.ep".
+[Sat Jul 13 19:27:08 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:27:08 2013] [debug] 200 OK (0.025887s, 38.629/s).
+[Sat Jul 13 19:27:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:27:11 2013] [debug] GET "/".
+[Sat Jul 13 19:27:11 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:27:11 2013] [debug] Rendering template "singin/singin.html.ep".
+[Sat Jul 13 19:27:11 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:27:11 2013] [debug] 200 OK (0.028021s, 35.688/s).
+[Sat Jul 13 19:27:46 2013] [debug] GET "/".
+[Sat Jul 13 19:27:46 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:27:46 2013] [debug] Rendering cached template "singin/singin.html.ep".
+[Sat Jul 13 19:27:46 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:27:46 2013] [debug] 200 OK (0.003442s, 290.529/s).
+[Sat Jul 13 19:27:48 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:27:48 2013] [debug] GET "/".
+[Sat Jul 13 19:27:48 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:27:48 2013] [debug] Rendering template "singin/singin.html.ep".
+[Sat Jul 13 19:27:48 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:27:48 2013] [debug] 200 OK (0.021869s, 45.727/s).
+[Sat Jul 13 19:27:49 2013] [debug] POST "/signin".
+[Sat Jul 13 19:27:49 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:27:49 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:27:49 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:27:49 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:27:49 2013] [debug] 404 Not Found (0.048769s, 20.505/s).
+[Sat Jul 13 19:28:19 2013] [debug] POST "/signin".
+[Sat Jul 13 19:28:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:28:19 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:28:19 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:28:19 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:28:19 2013] [debug] 404 Not Found (0.016552s, 60.416/s).
+[Sat Jul 13 19:28:20 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:28:21 2013] [debug] POST "/signin".
+[Sat Jul 13 19:28:21 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:28:21 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:28:21 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:28:21 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:28:21 2013] [debug] 404 Not Found (0.053449s, 18.709/s).
+[Sat Jul 13 19:28:33 2013] [debug] POST "/signin".
+[Sat Jul 13 19:28:33 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:28:33 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:28:33 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:28:33 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:28:33 2013] [debug] 404 Not Found (0.019905s, 50.239/s).
+[Sat Jul 13 19:28:34 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:28:35 2013] [debug] GET "/signin".
+[Sat Jul 13 19:28:35 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:28:35 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:28:35 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:28:35 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:28:35 2013] [debug] 404 Not Found (0.033007s, 30.297/s).
+[Sat Jul 13 19:28:41 2013] [debug] GET "/singin".
+[Sat Jul 13 19:28:41 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:28:41 2013] [debug] Rendering template "singin/singin.html.ep".
+[Sat Jul 13 19:28:41 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:28:41 2013] [debug] 200 OK (0.030668s, 32.607/s).
+[Sat Jul 13 19:28:55 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:28:55 2013] [debug] GET "/singin".
+[Sat Jul 13 19:28:55 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:28:55 2013] [debug] Rendering template "singin/singin.html.ep".
+[Sat Jul 13 19:28:55 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:28:55 2013] [debug] 200 OK (0.023672s, 42.244/s).
+[Sat Jul 13 19:28:55 2013] [debug] GET "/singin".
+[Sat Jul 13 19:28:55 2013] [debug] Routing to controller "Shara::Singin" and action "singin".
+[Sat Jul 13 19:28:55 2013] [debug] Rendering cached template "singin/singin.html.ep".
+[Sat Jul 13 19:28:55 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:28:55 2013] [debug] 200 OK (0.003352s, 298.329/s).
+[Sat Jul 13 19:30:09 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:30:09 2013] [debug] GET "/singin".
+[Sat Jul 13 19:30:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:30:09 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:30:09 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:30:09 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:30:09 2013] [debug] 404 Not Found (0.035690s, 28.019/s).
+[Sat Jul 13 19:30:11 2013] [debug] GET "/".
+[Sat Jul 13 19:30:11 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:11 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:11 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:30:11 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:11 2013] [debug] 200 OK (0.035907s, 27.850/s).
+[Sat Jul 13 19:30:12 2013] [debug] POST "/singin".
+[Sat Jul 13 19:30:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:30:12 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:30:12 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:30:12 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:30:12 2013] [debug] 404 Not Found (0.017513s, 57.100/s).
+[Sat Jul 13 19:30:16 2013] [debug] GET "/d/%5B1998%5D%20LP5/07-Under%20BOAC.mp3".
+[Sat Jul 13 19:30:16 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:30:16 2013] [debug] 206 Partial Content (0.277225s, 3.607/s).
+[Sat Jul 13 19:30:27 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:30:27 2013] [debug] POST "/singin".
+[Sat Jul 13 19:30:27 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:30:27 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:30:27 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:30:27 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:30:27 2013] [debug] 404 Not Found (0.039824s, 25.110/s).
+[Sat Jul 13 19:30:30 2013] [debug] GET "/".
+[Sat Jul 13 19:30:30 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:30 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:30 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:30:30 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:30 2013] [debug] 200 OK (0.021667s, 46.153/s).
+[Sat Jul 13 19:30:31 2013] [debug] POST "/signin".
+[Sat Jul 13 19:30:31 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:31 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:31 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:30:31 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:31 2013] [debug] 200 OK (0.007021s, 142.430/s).
+[Sat Jul 13 19:30:32 2013] [debug] POST "/signin".
+[Sat Jul 13 19:30:32 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:32 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:32 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:30:32 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:32 2013] [debug] 200 OK (0.003477s, 287.604/s).
+[Sat Jul 13 19:30:33 2013] [debug] GET "/".
+[Sat Jul 13 19:30:33 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:33 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:33 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:30:33 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:33 2013] [debug] 200 OK (0.003901s, 256.345/s).
+[Sat Jul 13 19:30:44 2013] [debug] GET "/".
+[Sat Jul 13 19:30:44 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:44 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:44 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:30:44 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:44 2013] [debug] 200 OK (0.003412s, 293.083/s).
+[Sat Jul 13 19:30:45 2013] [debug] GET "/".
+[Sat Jul 13 19:30:45 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:45 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:45 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:30:45 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:45 2013] [debug] 200 OK (0.003623s, 276.014/s).
+[Sat Jul 13 19:30:46 2013] [debug] GET "/".
+[Sat Jul 13 19:30:46 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:46 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:46 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:30:46 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:46 2013] [debug] 200 OK (0.003446s, 290.192/s).
+[Sat Jul 13 19:30:56 2013] [debug] Your secret passphrase needs to be changed!!!
+[Sat Jul 13 19:30:56 2013] [debug] GET "/".
+[Sat Jul 13 19:30:56 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:30:56 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:30:56 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:30:56 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:30:56 2013] [debug] 200 OK (0.022133s, 45.181/s).
+[Sat Jul 13 19:34:49 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:34:49 2013] [info] Listening at "http://*:3000".
+[Sat Jul 13 19:34:49 2013] [debug] GET "/".
+[Sat Jul 13 19:34:49 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:34:49 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:34:49 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:34:49 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:34:49 2013] [debug] 200 OK (0.021460s, 46.598/s).
+[Sat Jul 13 19:34:53 2013] [debug] GET "/".
+[Sat Jul 13 19:34:53 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:34:53 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:34:53 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:34:53 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:34:53 2013] [debug] 200 OK (0.002496s, 400.641/s).
+[Sat Jul 13 19:35:13 2013] [debug] GET "/".
+[Sat Jul 13 19:35:13 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:35:13 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:35:13 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:35:13 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:35:13 2013] [debug] 200 OK (0.003243s, 308.356/s).
+[Sat Jul 13 19:36:37 2013] [debug] GET "/d/%5B1998%5D%20LP5/08-Corc.mp3".
+[Sat Jul 13 19:36:37 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:36:37 2013] [debug] 206 Partial Content (0.370629s, 2.698/s).
+[Sat Jul 13 19:37:51 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:38:37 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:38:55 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:39:58 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:40:45 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:41:01 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:41:06 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:41:10 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:42:29 2013] [debug] GET "/d/%5B1998%5D%20LP5/09-Caliper%20Remote.mp3".
+[Sat Jul 13 19:42:29 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:42:29 2013] [debug] 206 Partial Content (0.298899s, 3.346/s).
+[Sat Jul 13 19:43:44 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:44:12 2013] [debug] GET "/".
+[Sat Jul 13 19:44:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:44:12 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:44:12 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:44:12 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:44:12 2013] [debug] 404 Not Found (0.032022s, 31.229/s).
+[Sat Jul 13 19:44:14 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:44:14 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:44:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:44:14 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:44:14 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:44:14 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:44:14 2013] [debug] 404 Not Found (0.035333s, 28.302/s).
+[Sat Jul 13 19:44:14 2013] [debug] GET "/".
+[Sat Jul 13 19:44:14 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:14 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:14 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:44:14 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:14 2013] [debug] 200 OK (0.016494s, 60.628/s).
+[Sat Jul 13 19:44:14 2013] [debug] GET "/d/%5B1998%5D%20LP5/10-Arch%20Carrier.mp3".
+[Sat Jul 13 19:44:14 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:44:14 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:44:14 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:14 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:14 2013] [debug] 404 Not Found (0.012501s, 79.994/s).
+[Sat Jul 13 19:44:16 2013] [debug] POST "/signin".
+[Sat Jul 13 19:44:16 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:16 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:16 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:44:16 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:16 2013] [debug] 200 OK (0.003496s, 286.041/s).
+[Sat Jul 13 19:44:20 2013] [debug] POST "/signin".
+[Sat Jul 13 19:44:20 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:20 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:20 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:44:20 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:20 2013] [debug] 200 OK (0.003452s, 289.687/s).
+[Sat Jul 13 19:44:21 2013] [debug] POST "/signin".
+[Sat Jul 13 19:44:21 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:21 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:21 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:44:21 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:21 2013] [debug] 200 OK (0.005089s, 196.502/s).
+[Sat Jul 13 19:44:24 2013] [debug] GET "/d/".
+[Sat Jul 13 19:44:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:44:24 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:44:24 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:24 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:24 2013] [debug] 404 Not Found (0.014383s, 69.527/s).
+[Sat Jul 13 19:44:24 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:44:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:44:24 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:44:24 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:24 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:24 2013] [debug] 404 Not Found (0.014878s, 67.213/s).
+[Sat Jul 13 19:44:26 2013] [debug] GET "/d/".
+[Sat Jul 13 19:44:26 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:44:26 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:44:26 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:26 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:26 2013] [debug] 404 Not Found (0.016219s, 61.656/s).
+[Sat Jul 13 19:44:27 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:44:27 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:44:27 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:44:27 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:27 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:44:27 2013] [debug] 404 Not Found (0.018146s, 55.109/s).
+[Sat Jul 13 19:44:40 2013] [debug] GET "/".
+[Sat Jul 13 19:44:40 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:40 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:40 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:44:40 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:40 2013] [debug] 200 OK (0.003941s, 253.743/s).
+[Sat Jul 13 19:44:41 2013] [debug] POST "/signin".
+[Sat Jul 13 19:44:41 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:41 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:41 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:44:41 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:41 2013] [debug] 200 OK (0.004093s, 244.320/s).
+[Sat Jul 13 19:44:42 2013] [debug] POST "/signin".
+[Sat Jul 13 19:44:42 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:42 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:42 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:44:42 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:42 2013] [debug] 200 OK (0.003788s, 263.992/s).
+[Sat Jul 13 19:44:47 2013] [debug] POST "/signin".
+[Sat Jul 13 19:44:47 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:44:47 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:44:47 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:44:47 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:44:47 2013] [debug] 200 OK (0.003930s, 254.453/s).
+[Sat Jul 13 19:45:07 2013] [debug] POST "/signin".
+[Sat Jul 13 19:45:07 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:45:07 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:45:07 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:45:07 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:45:07 2013] [debug] 200 OK (0.003626s, 275.786/s).
+[Sat Jul 13 19:45:22 2013] [debug] POST "/signin".
+[Sat Jul 13 19:45:22 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:45:22 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:45:22 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:45:22 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:45:22 2013] [debug] 200 OK (0.004932s, 202.758/s).
+[Sat Jul 13 19:45:24 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:45:24 2013] [debug] POST "/signin".
+[Sat Jul 13 19:45:24 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:45:24 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:45:24 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:45:24 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:45:24 2013] [debug] 200 OK (0.020368s, 49.097/s).
+[Sat Jul 13 19:45:26 2013] [debug] POST "/signin".
+[Sat Jul 13 19:45:26 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:45:26 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:45:26 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:45:26 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:45:26 2013] [debug] 200 OK (0.003592s, 278.396/s).
+[Sat Jul 13 19:45:38 2013] [debug] POST "/signin".
+[Sat Jul 13 19:45:38 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:45:38 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:45:38 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:45:38 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:45:38 2013] [debug] 200 OK (0.003682s, 271.592/s).
+[Sat Jul 13 19:46:12 2013] [debug] POST "/signin".
+[Sat Jul 13 19:46:12 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:46:12 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:46:12 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:46:12 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:46:12 2013] [debug] 200 OK (0.003714s, 269.251/s).
+[Sat Jul 13 19:46:13 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:46:29 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:46:29 2013] [debug] POST "/signin".
+[Sat Jul 13 19:46:29 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:46:29 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:46:29 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:46:29 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:46:29 2013] [debug] 200 OK (0.024577s, 40.688/s).
+[Sat Jul 13 19:46:29 2013] [debug] POST "/signin".
+[Sat Jul 13 19:46:29 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:46:29 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:46:29 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:46:29 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:46:29 2013] [debug] 200 OK (0.003421s, 292.312/s).
+[Sat Jul 13 19:46:30 2013] [debug] POST "/signin".
+[Sat Jul 13 19:46:30 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:46:30 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:46:30 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:46:30 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:46:30 2013] [debug] 200 OK (0.003965s, 252.207/s).
+[Sat Jul 13 19:46:35 2013] [debug] POST "/signin".
+[Sat Jul 13 19:46:35 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:46:35 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:46:35 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:46:35 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:46:35 2013] [debug] 200 OK (0.004104s, 243.665/s).
+[Sat Jul 13 19:46:47 2013] [debug] POST "/signin".
+[Sat Jul 13 19:46:47 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:46:47 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:46:47 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:46:47 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:46:47 2013] [debug] 200 OK (0.003920s, 255.102/s).
+[Sat Jul 13 19:46:59 2013] [debug] POST "/signin".
+[Sat Jul 13 19:46:59 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:46:59 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:46:59 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:46:59 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:46:59 2013] [debug] 200 OK (0.004001s, 249.938/s).
+[Sat Jul 13 19:47:01 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:01 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:01 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:01 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:01 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:01 2013] [debug] 200 OK (0.006189s, 161.577/s).
+[Sat Jul 13 19:47:03 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:47:03 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:03 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:03 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:03 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:47:03 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:03 2013] [debug] 200 OK (0.023148s, 43.200/s).
+[Sat Jul 13 19:47:16 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:16 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:16 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:16 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:16 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:16 2013] [debug] 200 OK (0.004238s, 235.960/s).
+[Sat Jul 13 19:47:17 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:47:17 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:17 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:17 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:17 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:47:17 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:17 2013] [debug] 200 OK (0.021494s, 46.525/s).
+[Sat Jul 13 19:47:18 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:18 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:18 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:18 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:18 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:18 2013] [debug] 200 OK (0.002990s, 334.448/s).
+[Sat Jul 13 19:47:49 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:49 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:49 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:49 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:49 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:49 2013] [debug] 200 OK (0.003745s, 267.023/s).
+[Sat Jul 13 19:47:52 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:47:52 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:52 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:52 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:52 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:47:52 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:52 2013] [debug] 200 OK (0.022321s, 44.801/s).
+[Sat Jul 13 19:47:53 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:53 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:53 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:53 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:53 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:53 2013] [debug] 200 OK (0.003925s, 254.777/s).
+[Sat Jul 13 19:47:54 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:54 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:54 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:54 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:54 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:54 2013] [debug] 200 OK (0.004051s, 246.853/s).
+[Sat Jul 13 19:47:55 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:55 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:55 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:55 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:55 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:55 2013] [debug] 200 OK (0.003167s, 315.756/s).
+[Sat Jul 13 19:47:55 2013] [debug] POST "/signin".
+[Sat Jul 13 19:47:55 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:47:55 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:47:55 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:47:55 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:47:55 2013] [debug] 200 OK (0.003822s, 261.643/s).
+[Sat Jul 13 19:48:14 2013] [debug] POST "/signin".
+[Sat Jul 13 19:48:14 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:14 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:14 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:48:14 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:14 2013] [debug] 200 OK (0.003803s, 262.950/s).
+[Sat Jul 13 19:48:16 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:48:16 2013] [debug] POST "/signin".
+[Sat Jul 13 19:48:16 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:16 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:16 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:48:16 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:16 2013] [debug] 200 OK (0.020998s, 47.624/s).
+[Sat Jul 13 19:48:17 2013] [debug] POST "/signin".
+[Sat Jul 13 19:48:17 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:17 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:17 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:48:17 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:17 2013] [debug] 200 OK (0.003866s, 258.665/s).
+[Sat Jul 13 19:48:17 2013] [debug] POST "/signin".
+[Sat Jul 13 19:48:17 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:17 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:17 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:48:17 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:17 2013] [debug] 200 OK (0.003883s, 257.533/s).
+[Sat Jul 13 19:48:20 2013] [debug] GET "/signin".
+[Sat Jul 13 19:48:20 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:20 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:20 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:48:20 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:20 2013] [debug] 200 OK (0.003689s, 271.076/s).
+[Sat Jul 13 19:48:22 2013] [debug] GET "/signin".
+[Sat Jul 13 19:48:22 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:22 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:22 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:48:22 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:22 2013] [debug] 200 OK (0.007657s, 130.599/s).
+[Sat Jul 13 19:48:24 2013] [debug] GET "/".
+[Sat Jul 13 19:48:24 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:24 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:24 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:48:24 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:24 2013] [debug] 200 OK (0.003794s, 263.574/s).
+[Sat Jul 13 19:48:40 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:48:40 2013] [info] Listening at "http://*:3000".
+[Sat Jul 13 19:48:41 2013] [debug] GET "/".
+[Sat Jul 13 19:48:41 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:41 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:41 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:48:41 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:41 2013] [debug] 200 OK (0.021348s, 46.843/s).
+[Sat Jul 13 19:48:42 2013] [debug] GET "/".
+[Sat Jul 13 19:48:42 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:48:42 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:48:42 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:48:42 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:48:42 2013] [debug] 200 OK (0.003754s, 266.383/s).
+[Sat Jul 13 19:49:15 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:49:22 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:49:26 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:49:26 2013] [debug] POST "/signin".
+[Sat Jul 13 19:49:26 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:26 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:26 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:49:26 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:26 2013] [debug] 200 OK (0.020368s, 49.097/s).
+[Sat Jul 13 19:49:28 2013] [debug] POST "/signin".
+[Sat Jul 13 19:49:28 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:28 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:28 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:49:28 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:28 2013] [debug] 200 OK (0.006956s, 143.761/s).
+[Sat Jul 13 19:49:29 2013] [debug] GET "/".
+[Sat Jul 13 19:49:29 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:29 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:29 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:49:29 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:29 2013] [debug] 200 OK (0.003410s, 293.255/s).
+[Sat Jul 13 19:49:30 2013] [debug] GET "/".
+[Sat Jul 13 19:49:30 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:30 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:30 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:49:30 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:30 2013] [debug] 200 OK (0.004405s, 227.015/s).
+[Sat Jul 13 19:49:31 2013] [debug] GET "/".
+[Sat Jul 13 19:49:31 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:31 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:31 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:49:31 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:31 2013] [debug] 200 OK (0.003790s, 263.852/s).
+[Sat Jul 13 19:49:33 2013] [debug] POST "/signin".
+[Sat Jul 13 19:49:33 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:33 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:33 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:49:33 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:33 2013] [debug] 200 OK (0.004100s, 243.902/s).
+[Sat Jul 13 19:49:46 2013] [debug] POST "/signin".
+[Sat Jul 13 19:49:46 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:46 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:46 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:49:46 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:46 2013] [debug] 200 OK (0.004090s, 244.499/s).
+[Sat Jul 13 19:49:47 2013] [debug] POST "/signin".
+[Sat Jul 13 19:49:47 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:47 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:47 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:49:47 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:47 2013] [debug] 200 OK (0.005205s, 192.123/s).
+[Sat Jul 13 19:49:49 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:49:50 2013] [debug] POST "/signin".
+[Sat Jul 13 19:49:50 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:49:50 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:49:50 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:49:50 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:49:50 2013] [debug] 200 OK (0.021469s, 46.579/s).
+[Sat Jul 13 19:50:00 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:00 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:00 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:50:00 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:50:00 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:00 2013] [debug] 200 OK (0.004015s, 249.066/s).
+[Sat Jul 13 19:50:01 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:01 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:01 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:50:01 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:50:01 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:01 2013] [debug] 200 OK (0.004119s, 242.777/s).
+[Sat Jul 13 19:50:02 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:50:02 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:02 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:02 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:50:02 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:50:02 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:02 2013] [debug] 200 OK (0.023844s, 41.939/s).
+[Sat Jul 13 19:50:03 2013] [debug] GET "/".
+[Sat Jul 13 19:50:03 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:03 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:50:03 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:50:03 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:03 2013] [debug] 200 OK (0.003873s, 258.198/s).
+[Sat Jul 13 19:50:17 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:17 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:17 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:50:17 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:50:17 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:17 2013] [debug] 200 OK (0.004844s, 206.441/s).
+[Sat Jul 13 19:50:35 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:35 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:35 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:50:35 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:50:35 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:35 2013] [debug] 200 OK (0.003926s, 254.712/s).
+[Sat Jul 13 19:50:37 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:37 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:37 2013] [debug] Action not found in controller.
+[Sat Jul 13 19:50:37 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:50:37 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:37 2013] [debug] 200 OK (0.005046s, 198.177/s).
+[Sat Jul 13 19:50:38 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:50:38 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:38 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:38 2013] [error] 13 at C:/Users/megatron/Documents/shara/shara/script/../lib/Shara/Signin.pm line 10.
+
+[Sat Jul 13 19:50:38 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Jul 13 19:50:38 2013] [debug] Template "exception.html.ep" not found.
+[Sat Jul 13 19:50:38 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:38 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:38 2013] [debug] 500 Internal Server Error (0.046006s, 21.736/s).
+[Sat Jul 13 19:50:39 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:50:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:50:39 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:50:39 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:39 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:39 2013] [debug] 404 Not Found (0.035029s, 28.548/s).
+[Sat Jul 13 19:50:39 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:50:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:50:39 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:50:39 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:39 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:39 2013] [debug] 404 Not Found (0.013057s, 76.587/s).
+[Sat Jul 13 19:50:46 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:46 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:46 2013] [error] 13 at C:/Users/megatron/Documents/shara/shara/script/../lib/Shara/Signin.pm line 10.
+
+[Sat Jul 13 19:50:46 2013] [debug] Template "exception.development.html.ep" not found.
+[Sat Jul 13 19:50:46 2013] [debug] Template "exception.html.ep" not found.
+[Sat Jul 13 19:50:46 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:46 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:46 2013] [debug] 500 Internal Server Error (0.027633s, 36.189/s).
+[Sat Jul 13 19:50:47 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:50:47 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:50:47 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:50:47 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:50:47 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:47 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:47 2013] [debug] 404 Not Found (0.046361s, 21.570/s).
+[Sat Jul 13 19:50:48 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:50:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:50:48 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:50:48 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:48 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:48 2013] [debug] 404 Not Found (0.014917s, 67.038/s).
+[Sat Jul 13 19:50:49 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:49 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:49 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:50:49 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:49 2013] [debug] 200 OK (0.044468s, 22.488/s).
+[Sat Jul 13 19:50:54 2013] [debug] POST "/signin".
+[Sat Jul 13 19:50:54 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:54 2013] [debug] 302 Found (0.001634s, 611.995/s).
+[Sat Jul 13 19:50:54 2013] [debug] GET "/".
+[Sat Jul 13 19:50:54 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:50:54 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:50:54 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:50:54 2013] [debug] 200 OK (0.012815s, 78.034/s).
+[Sat Jul 13 19:50:57 2013] [debug] GET "/d/".
+[Sat Jul 13 19:50:57 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:50:57 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:50:57 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:57 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:50:58 2013] [debug] 404 Not Found (0.041793s, 23.927/s).
+[Sat Jul 13 19:50:58 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:50:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:50:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:50:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:58 2013] [debug] 404 Not Found (0.022739s, 43.977/s).
+[Sat Jul 13 19:50:59 2013] [debug] GET "/d/".
+[Sat Jul 13 19:50:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:50:59 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:50:59 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:59 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:50:59 2013] [debug] 404 Not Found (0.015863s, 63.040/s).
+[Sat Jul 13 19:51:00 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:51:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:51:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:51:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:00 2013] [debug] 404 Not Found (0.016346s, 61.177/s).
+[Sat Jul 13 19:51:34 2013] [debug] POST "/signin".
+[Sat Jul 13 19:51:34 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:51:34 2013] [debug] 302 Found (0.001831s, 546.150/s).
+[Sat Jul 13 19:51:34 2013] [debug] GET "/".
+[Sat Jul 13 19:51:34 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:51:34 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:51:34 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:51:34 2013] [debug] 200 OK (0.003753s, 266.454/s).
+[Sat Jul 13 19:51:50 2013] [debug] GET "/d/".
+[Sat Jul 13 19:51:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:51:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:51:50 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:50 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:50 2013] [debug] 404 Not Found (0.012956s, 77.184/s).
+[Sat Jul 13 19:51:50 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:51:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:51:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:51:50 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:50 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:50 2013] [debug] 404 Not Found (0.012411s, 80.574/s).
+[Sat Jul 13 19:51:51 2013] [debug] GET "/d/".
+[Sat Jul 13 19:51:51 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:51:51 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:51:51 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:51 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:51 2013] [debug] 404 Not Found (0.021108s, 47.375/s).
+[Sat Jul 13 19:51:52 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:51:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:51:52 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:51:52 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:52 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:52 2013] [debug] 404 Not Found (0.012138s, 82.386/s).
+[Sat Jul 13 19:51:53 2013] [debug] GET "/d/".
+[Sat Jul 13 19:51:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:51:53 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:51:53 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:53 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:53 2013] [debug] 404 Not Found (0.013055s, 76.599/s).
+[Sat Jul 13 19:51:54 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:51:54 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:51:54 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:51:54 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:54 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:51:54 2013] [debug] 404 Not Found (0.012651s, 79.045/s).
+[Sat Jul 13 19:52:05 2013] [debug] GET "/d/".
+[Sat Jul 13 19:52:05 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:05 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:05 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:05 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:05 2013] [debug] 404 Not Found (0.011080s, 90.253/s).
+[Sat Jul 13 19:52:06 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:52:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:06 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:06 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:06 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:06 2013] [debug] 404 Not Found (0.012985s, 77.012/s).
+[Sat Jul 13 19:52:07 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:52:07 2013] [debug] GET "/d/".
+[Sat Jul 13 19:52:07 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:07 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:07 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:07 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:07 2013] [debug] 404 Not Found (0.043388s, 23.048/s).
+[Sat Jul 13 19:52:08 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:52:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:08 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:08 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:08 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:08 2013] [debug] 404 Not Found (0.032749s, 30.535/s).
+[Sat Jul 13 19:52:08 2013] [debug] GET "/d/".
+[Sat Jul 13 19:52:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:08 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:08 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:08 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:08 2013] [debug] 404 Not Found (0.012682s, 78.852/s).
+[Sat Jul 13 19:52:09 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:52:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:09 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:09 2013] [debug] 404 Not Found (0.013054s, 76.605/s).
+[Sat Jul 13 19:52:10 2013] [debug] GET "/d/".
+[Sat Jul 13 19:52:10 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:10 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:10 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:10 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:10 2013] [debug] 404 Not Found (0.014192s, 70.462/s).
+[Sat Jul 13 19:52:11 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:52:11 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:11 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:11 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:11 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:11 2013] [debug] 404 Not Found (0.013607s, 73.492/s).
+[Sat Jul 13 19:52:11 2013] [debug] GET "/d/".
+[Sat Jul 13 19:52:11 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:11 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:11 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:11 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:11 2013] [debug] 404 Not Found (0.012183s, 82.082/s).
+[Sat Jul 13 19:52:12 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:52:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:12 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:12 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:12 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:12 2013] [debug] 404 Not Found (0.012233s, 81.746/s).
+[Sat Jul 13 19:52:48 2013] [debug] GET "/d/".
+[Sat Jul 13 19:52:48 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:48 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:48 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:48 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:52:48 2013] [debug] 404 Not Found (0.012653s, 79.033/s).
+[Sat Jul 13 19:52:49 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:52:50 2013] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Sat Jul 13 19:52:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:50 2013] [debug] 404 Not Found (0.050940s, 19.631/s).
+[Sat Jul 13 19:52:50 2013] [debug] GET "/d/".
+[Sat Jul 13 19:52:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:52:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:52:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:52:50 2013] [debug] 404 Not Found (0.029015s, 34.465/s).
+[Sat Jul 13 19:53:03 2013] [debug] GET "/".
+[Sat Jul 13 19:53:03 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:53:03 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:53:03 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:53:03 2013] [debug] 200 OK (0.017866s, 55.972/s).
+[Sat Jul 13 19:53:04 2013] [debug] GET "/".
+[Sat Jul 13 19:53:04 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:53:04 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:53:04 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:53:04 2013] [debug] 200 OK (0.003045s, 328.407/s).
+[Sat Jul 13 19:53:06 2013] [debug] GET "/d/".
+[Sat Jul 13 19:53:06 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:53:06 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:53:06 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:53:06 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:53:06 2013] [debug] 404 Not Found (0.016152s, 61.912/s).
+[Sat Jul 13 19:53:24 2013] [debug] GET "/d/".
+[Sat Jul 13 19:53:24 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:53:24 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:53:24 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:53:24 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:53:24 2013] [debug] 404 Not Found (0.013290s, 75.245/s).
+[Sat Jul 13 19:53:25 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:53:25 2013] [debug] GET "/d/".
+[Sat Jul 13 19:53:25 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:53:25 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:53:25 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:53:25 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:53:25 2013] [debug] 404 Not Found (0.032755s, 30.530/s).
+[Sat Jul 13 19:54:05 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:54:08 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:08 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:08 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:08 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:08 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:08 2013] [debug] 404 Not Found (0.030565s, 32.717/s).
+[Sat Jul 13 19:54:09 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:09 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:09 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:09 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:09 2013] [debug] 404 Not Found (0.009779s, 102.260/s).
+[Sat Jul 13 19:54:12 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:12 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:12 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:12 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:12 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:12 2013] [debug] 404 Not Found (0.012763s, 78.351/s).
+[Sat Jul 13 19:54:18 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:18 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:18 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:18 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:18 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:18 2013] [debug] 404 Not Found (0.016028s, 62.391/s).
+[Sat Jul 13 19:54:19 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:19 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:19 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:19 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:19 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:19 2013] [debug] 404 Not Found (0.013942s, 71.726/s).
+[Sat Jul 13 19:54:20 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:54:20 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:20 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:20 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:20 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:20 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:20 2013] [debug] 404 Not Found (0.044517s, 22.463/s).
+[Sat Jul 13 19:54:39 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:39 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:39 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:39 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:39 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:39 2013] [debug] 404 Not Found (0.017142s, 58.336/s).
+[Sat Jul 13 19:54:40 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:54:40 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:40 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:40 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:40 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:40 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:40 2013] [debug] 404 Not Found (0.029956s, 33.382/s).
+[Sat Jul 13 19:54:41 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:41 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:41 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:41 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:41 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:41 2013] [debug] 404 Not Found (0.010649s, 93.906/s).
+[Sat Jul 13 19:54:42 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:42 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:42 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:42 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:42 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:42 2013] [debug] 404 Not Found (0.012866s, 77.724/s).
+[Sat Jul 13 19:54:58 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:54:58 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:59 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:59 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:59 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:54:59 2013] [debug] 404 Not Found (0.031810s, 31.437/s).
+[Sat Jul 13 19:54:59 2013] [debug] GET "/d/".
+[Sat Jul 13 19:54:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:54:59 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:54:59 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:59 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:54:59 2013] [debug] 404 Not Found (0.010498s, 95.256/s).
+[Sat Jul 13 19:55:00 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:00 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:00 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:00 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:00 2013] [debug] 404 Not Found (0.013970s, 71.582/s).
+[Sat Jul 13 19:55:01 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:01 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:01 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:01 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:01 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:01 2013] [debug] 404 Not Found (0.014647s, 68.273/s).
+[Sat Jul 13 19:55:10 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:55:22 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:22 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:22 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:22 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:55:22 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:55:22 2013] [debug] 404 Not Found (0.032557s, 30.715/s).
+[Sat Jul 13 19:55:24 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:55:25 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:25 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:55:25 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:55:25 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:55:25 2013] [debug] 200 OK (0.322567s, 3.100/s).
+[Sat Jul 13 19:55:27 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:27 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:55:27 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:55:27 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:55:27 2013] [debug] 200 OK (0.014236s, 70.244/s).
+[Sat Jul 13 19:55:28 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:28 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:55:28 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:55:28 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:55:28 2013] [debug] 200 OK (0.005311s, 188.288/s).
+[Sat Jul 13 19:55:34 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:34 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:55:34 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:55:34 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:55:34 2013] [debug] 200 OK (0.007172s, 139.431/s).
+[Sat Jul 13 19:55:35 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:35 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:55:35 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:55:35 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:55:35 2013] [debug] 200 OK (0.008179s, 122.264/s).
+[Sat Jul 13 19:55:36 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:36 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:55:36 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:55:36 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:55:36 2013] [debug] 200 OK (0.014968s, 66.809/s).
+[Sat Jul 13 19:55:37 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:55:50 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 19:55:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:55:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:55:50 2013] [debug] 404 Not Found (0.031013s, 32.245/s).
+[Sat Jul 13 19:55:52 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:55:52 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 19:55:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:52 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:52 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:55:52 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:55:52 2013] [debug] 404 Not Found (0.031940s, 31.309/s).
+[Sat Jul 13 19:55:52 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 19:55:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:52 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:52 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:52 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:52 2013] [debug] 404 Not Found (0.010735s, 93.153/s).
+[Sat Jul 13 19:55:53 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:53 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:53 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:53 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:53 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:53 2013] [debug] 404 Not Found (0.010190s, 98.135/s).
+[Sat Jul 13 19:55:54 2013] [debug] GET "/d/".
+[Sat Jul 13 19:55:54 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:55:54 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:55:54 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:54 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:55:54 2013] [debug] 404 Not Found (0.016071s, 62.224/s).
+[Sat Jul 13 19:56:21 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:56:49 2013] [debug] GET "/d/".
+[Sat Jul 13 19:56:49 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:56:49 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:56:49 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:56:49 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:56:49 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:56:49 2013] [debug] 404 Not Found (0.037572s, 26.616/s).
+[Sat Jul 13 19:56:51 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:56:51 2013] [debug] GET "/d/".
+[Sat Jul 13 19:56:51 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:56:51 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:56:51 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:56:51 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:56:51 2013] [debug] 200 OK (0.325541s, 3.072/s).
+[Sat Jul 13 19:57:02 2013] [debug] GET "/d/".
+[Sat Jul 13 19:57:02 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:57:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:57:02 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:57:02 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:57:02 2013] [debug] 200 OK (0.010160s, 98.425/s).
+[Sat Jul 13 19:57:04 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:57:04 2013] [debug] GET "/".
+[Sat Jul 13 19:57:04 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:57:04 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:57:04 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:57:04 2013] [debug] 200 OK (0.021789s, 45.895/s).
+[Sat Jul 13 19:57:04 2013] [debug] GET "/".
+[Sat Jul 13 19:57:04 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:57:04 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:57:04 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:57:04 2013] [debug] 200 OK (0.003058s, 327.011/s).
+[Sat Jul 13 19:58:19 2013] [debug] GET "/".
+[Sat Jul 13 19:58:19 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:58:19 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:58:19 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:19 2013] [debug] 200 OK (0.003389s, 295.072/s).
+[Sat Jul 13 19:58:20 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:58:20 2013] [debug] GET "/".
+[Sat Jul 13 19:58:20 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:20 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:58:20 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 19:58:20 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:20 2013] [debug] 200 OK (0.020712s, 48.281/s).
+[Sat Jul 13 19:58:21 2013] [debug] GET "/".
+[Sat Jul 13 19:58:21 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:21 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:58:21 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:58:21 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:21 2013] [debug] 200 OK (0.003560s, 280.899/s).
+[Sat Jul 13 19:58:21 2013] [debug] GET "/".
+[Sat Jul 13 19:58:21 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:21 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:58:21 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:58:21 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:21 2013] [debug] 200 OK (0.003223s, 310.270/s).
+[Sat Jul 13 19:58:23 2013] [debug] GET "/".
+[Sat Jul 13 19:58:23 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:23 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:58:23 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:58:23 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:23 2013] [debug] 200 OK (0.003358s, 297.796/s).
+[Sat Jul 13 19:58:25 2013] [debug] GET "/d/".
+[Sat Jul 13 19:58:25 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:26 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:58:26 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:58:26 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:26 2013] [debug] 200 OK (0.402757s, 2.483/s).
+[Sat Jul 13 19:58:27 2013] [debug] GET "/d/".
+[Sat Jul 13 19:58:27 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:27 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:58:27 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:58:27 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:27 2013] [debug] 200 OK (0.013075s, 76.482/s).
+[Sat Jul 13 19:58:35 2013] [debug] GET "/".
+[Sat Jul 13 19:58:35 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:35 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:58:35 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:58:35 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:35 2013] [debug] 200 OK (0.003918s, 255.232/s).
+[Sat Jul 13 19:58:35 2013] [debug] GET "/".
+[Sat Jul 13 19:58:35 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:35 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:58:35 2013] [debug] Rendering cached template "signin/signin.html.ep".
+[Sat Jul 13 19:58:35 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:58:35 2013] [debug] 200 OK (0.004660s, 214.592/s).
+[Sat Jul 13 19:58:36 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:58:36 2013] [debug] GET "/".
+[Sat Jul 13 19:58:36 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:58:37 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:58:37 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:58:37 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:58:37 2013] [debug] Rendering inline template.
+[Sat Jul 13 19:58:37 2013] [debug] 404 Not Found (0.030931s, 32.330/s).
+[Sat Jul 13 19:59:45 2013] [debug] GET "/".
+[Sat Jul 13 19:59:45 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:59:45 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 19:59:45 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 19:59:45 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:59:45 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 19:59:45 2013] [debug] 404 Not Found (0.009958s, 100.422/s).
+[Sat Jul 13 19:59:46 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 19:59:46 2013] [debug] GET "/".
+[Sat Jul 13 19:59:46 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:59:46 2013] [debug] 302 Found (0.001364s, 733.138/s).
+[Sat Jul 13 19:59:46 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:59:46 2013] [debug] GET "/d/".
+[Sat Jul 13 19:59:46 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:59:46 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:59:46 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:59:46 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:59:46 2013] [debug] 200 OK (0.308154s, 3.245/s).
+[Sat Jul 13 19:59:49 2013] [debug] GET "/".
+[Sat Jul 13 19:59:49 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:59:49 2013] [debug] 302 Found (0.001078s, 927.644/s).
+[Sat Jul 13 19:59:49 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 19:59:49 2013] [debug] GET "/d/".
+[Sat Jul 13 19:59:49 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:59:49 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:59:49 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 19:59:49 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 19:59:49 2013] [debug] 200 OK (0.007447s, 134.282/s).
+[Sat Jul 13 19:59:50 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 19:59:50 2013] [debug] Routing to a callback.
+[Sat Jul 13 19:59:50 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 19:59:50 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 19:59:50 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 19:59:50 2013] [debug] 200 OK (0.259695s, 3.851/s).
+[Sat Jul 13 20:00:01 2013] [debug] GET "/d/%5B1998%5D%20LP5/".
+[Sat Jul 13 20:00:01 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:01 2013] [debug] 302 Found (0.001166s, 857.633/s).
+[Sat Jul 13 20:00:01 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:00:01 2013] [debug] GET "/".
+[Sat Jul 13 20:00:01 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:01 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 20:00:01 2013] [debug] Rendering template "signin/signin.html.ep".
+[Sat Jul 13 20:00:01 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 20:00:01 2013] [debug] 200 OK (0.013648s, 73.271/s).
+[Sat Jul 13 20:00:06 2013] [debug] POST "/signin".
+[Sat Jul 13 20:00:06 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:06 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 20:00:06 2013] [debug] 302 Found (0.001692s, 591.017/s).
+[Sat Jul 13 20:00:06 2013] [debug] GET "/".
+[Sat Jul 13 20:00:06 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:06 2013] [debug] 302 Found (0.000819s, 1221.001/s).
+[Sat Jul 13 20:00:06 2013] [debug] Routing to controller "Shara::Signin" and action "signin".
+[Sat Jul 13 20:00:06 2013] [debug] GET "/d/".
+[Sat Jul 13 20:00:06 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:06 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:00:06 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:00:06 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:00:06 2013] [debug] 200 OK (0.007442s, 134.372/s).
+[Sat Jul 13 20:00:09 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 20:00:09 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:09 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:00:09 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:00:09 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:00:09 2013] [debug] 200 OK (0.254981s, 3.922/s).
+[Sat Jul 13 20:00:09 2013] [debug] GET "/d/%5B2001%5D%20Confield/front.jpg".
+[Sat Jul 13 20:00:09 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:09 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:00:09 2013] [debug] 200 OK (0.001917s, 521.648/s).
+[Sat Jul 13 20:00:26 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 20:00:26 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:00:26 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:00:26 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:00:26 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:00:26 2013] [debug] 200 OK (0.070700s, 14.144/s).
+[Sat Jul 13 20:01:01 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 20:01:01 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:01 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:01 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:01:01 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:01:01 2013] [debug] 200 OK (0.067056s, 14.913/s).
+[Sat Jul 13 20:01:02 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 20:01:02 2013] [debug] GET "/d/%5B2001%5D%20Confield/front.jpg".
+[Sat Jul 13 20:01:02 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:02 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:02 2013] [debug] 304 Not Modified (0.295899s, 3.380/s).
+[Sat Jul 13 20:01:09 2013] [debug] GET "/d/%5B2001%5D%20Confield/".
+[Sat Jul 13 20:01:09 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:09 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:09 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 20:01:09 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 20:01:09 2013] [debug] 200 OK (0.084211s, 11.875/s).
+[Sat Jul 13 20:01:11 2013] [debug] GET "/d/%5B2001%5D%20Confield/front.jpg".
+[Sat Jul 13 20:01:11 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:11 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:11 2013] [debug] 200 OK (0.001376s, 726.744/s).
+[Sat Jul 13 20:01:13 2013] [debug] GET "/d/".
+[Sat Jul 13 20:01:13 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:13 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:13 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 20:01:13 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 20:01:13 2013] [debug] 200 OK (0.021047s, 47.513/s).
+[Sat Jul 13 20:01:13 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:01:13 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:13 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:14 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:01:14 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:01:14 2013] [debug] 200 OK (0.270414s, 3.698/s).
+[Sat Jul 13 20:01:14 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:01:14 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:14 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:14 2013] [debug] 200 OK (0.001794s, 557.414/s).
+[Sat Jul 13 20:01:28 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 20:01:28 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:01:28 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:01:28 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:01:28 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:01:28 2013] [debug] 200 OK (0.062652s, 15.961/s).
+[Sat Jul 13 20:02:02 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 20:02:24 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 20:02:24 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:02:24 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:02:24 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 20:02:24 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 20:02:24 2013] [debug] 200 OK (0.369322s, 2.708/s).
+[Sat Jul 13 20:02:26 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 20:02:31 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:02:31 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:02:31 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:02:32 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 20:02:32 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 20:02:32 2013] [debug] 200 OK (0.372748s, 2.683/s).
+[Sat Jul 13 20:02:32 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:02:32 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:02:32 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:02:32 2013] [debug] 304 Not Modified (0.001618s, 618.047/s).
+[Sat Jul 13 20:02:45 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/01-Cipater.mp3".
+[Sat Jul 13 20:02:45 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:02:45 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:02:45 2013] [debug] 200 OK (0.002919s, 342.583/s).
+[Sat Jul 13 20:03:45 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:03:45 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:45 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:45 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:03:45 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:03:45 2013] [debug] 200 OK (0.072315s, 13.828/s).
+[Sat Jul 13 20:03:46 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 20:03:46 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:03:46 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:46 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:46 2013] [debug] 200 OK (0.283483s, 3.528/s).
+[Sat Jul 13 20:03:49 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:03:49 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:49 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:49 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 20:03:49 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 20:03:49 2013] [debug] 200 OK (0.096936s, 10.316/s).
+[Sat Jul 13 20:03:50 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/%5B1993%5D%20Incunabula//01-Kalpol%20Introl.mp3".
+[Sat Jul 13 20:03:50 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:50 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:50 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 20:03:50 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 20:03:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 20:03:50 2013] [debug] Rendering inline template.
+[Sat Jul 13 20:03:50 2013] [debug] 404 Not Found (0.028604s, 34.960/s).
+[Sat Jul 13 20:03:50 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:03:50 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:50 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:50 2013] [debug] 304 Not Modified (0.001442s, 693.481/s).
+[Sat Jul 13 20:03:52 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/%5B1993%5D%20Incunabula//02-Bike.mp3".
+[Sat Jul 13 20:03:52 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:52 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:52 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 20:03:52 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 20:03:52 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:03:52 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:03:52 2013] [debug] 404 Not Found (0.018165s, 55.051/s).
+[Sat Jul 13 20:03:57 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 20:03:57 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:57 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:57 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:03:57 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:03:57 2013] [debug] 200 OK (0.071944s, 13.900/s).
+[Sat Jul 13 20:03:58 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/%5B1997%5D%20Chiastic%20Slide//01-Cipater.mp3".
+[Sat Jul 13 20:03:58 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:58 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 20:03:58 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 20:03:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:03:58 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:03:58 2013] [debug] 404 Not Found (0.020102s, 49.746/s).
+[Sat Jul 13 20:03:59 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/%5B1997%5D%20Chiastic%20Slide//01-Cipater.mp3".
+[Sat Jul 13 20:03:59 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:03:59 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:03:59 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 20:03:59 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 20:03:59 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:03:59 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:03:59 2013] [debug] 404 Not Found (0.019663s, 50.857/s).
+[Sat Jul 13 20:04:29 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:04:29 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:29 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:29 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:04:29 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:04:29 2013] [debug] 200 OK (0.072092s, 13.871/s).
+[Sat Jul 13 20:04:30 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/%5B1993%5D%20Incunabula//01-Kalpol%20Introl.mp3".
+[Sat Jul 13 20:04:30 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:30 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:30 2013] [debug] Template "not_found.development.html.ep" not found.
+[Sat Jul 13 20:04:30 2013] [debug] Template "not_found.html.ep" not found.
+[Sat Jul 13 20:04:30 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:04:30 2013] [debug] Rendering cached inline template.
+[Sat Jul 13 20:04:30 2013] [debug] 404 Not Found (0.012482s, 80.115/s).
+[Sat Jul 13 20:04:30 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:04:30 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:30 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:30 2013] [debug] 304 Not Modified (0.001507s, 663.570/s).
+[Sat Jul 13 20:04:31 2013] [debug] Reading config file "C:\Users\megatron\Documents\shara\shara\shara.conf".
+[Sat Jul 13 20:04:31 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 20:04:31 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:32 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:32 2013] [debug] Rendering template "disk/get.html.ep".
+[Sat Jul 13 20:04:32 2013] [debug] Rendering template "layouts/shara.html.ep".
+[Sat Jul 13 20:04:32 2013] [debug] 200 OK (0.389016s, 2.571/s).
+[Sat Jul 13 20:04:32 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide//01-Cipater.mp3".
+[Sat Jul 13 20:04:32 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:32 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:32 2013] [debug] 206 Partial Content (0.004642s, 215.424/s).
+[Sat Jul 13 20:04:33 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:04:33 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:33 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:33 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:04:33 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:04:33 2013] [debug] 200 OK (0.137582s, 7.268/s).
+[Sat Jul 13 20:04:33 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//01-Kalpol%20Introl.mp3".
+[Sat Jul 13 20:04:33 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:33 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:33 2013] [debug] 206 Partial Content (0.001949s, 513.084/s).
+[Sat Jul 13 20:04:33 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:04:33 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:33 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:33 2013] [debug] 304 Not Modified (0.001925s, 519.481/s).
+[Sat Jul 13 20:04:35 2013] [error] An established connection was aborted by the software in your host machine.
+[Sat Jul 13 20:04:35 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//02-Bike.mp3".
+[Sat Jul 13 20:04:35 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:35 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:35 2013] [debug] 206 Partial Content (0.001957s, 510.986/s).
+[Sat Jul 13 20:04:38 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//02-Bike.mp3".
+[Sat Jul 13 20:04:38 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:38 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:38 2013] [debug] 206 Partial Content (0.001519s, 658.328/s).
+[Sat Jul 13 20:04:40 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//05-Basscadet.mp3".
+[Sat Jul 13 20:04:40 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:40 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:40 2013] [debug] 206 Partial Content (0.001756s, 569.476/s).
+[Sat Jul 13 20:04:42 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//05-Basscadet.mp3".
+[Sat Jul 13 20:04:42 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:04:42 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:04:42 2013] [debug] 206 Partial Content (0.002126s, 470.367/s).
+[Sat Jul 13 20:04:48 2013] [debug] Inactivity timeout.
+[Sat Jul 13 20:05:04 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//01-Kalpol%20Introl.mp3".
+[Sat Jul 13 20:05:04 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:05:04 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:05:04 2013] [debug] 206 Partial Content (0.001486s, 672.948/s).
+[Sat Jul 13 20:05:09 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//06-Eggshell.mp3".
+[Sat Jul 13 20:05:09 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:05:09 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:05:09 2013] [debug] 206 Partial Content (0.001759s, 568.505/s).
+[Sat Jul 13 20:05:12 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//06-Eggshell.mp3".
+[Sat Jul 13 20:05:12 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:05:12 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:05:12 2013] [debug] 206 Partial Content (0.001495s, 668.896/s).
+[Sat Jul 13 20:05:13 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//06-Eggshell.mp3".
+[Sat Jul 13 20:05:13 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:05:13 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:05:13 2013] [debug] 206 Partial Content (0.001517s, 659.196/s).
+[Sat Jul 13 20:05:31 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//06-Eggshell.mp3".
+[Sat Jul 13 20:05:31 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:05:31 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:05:31 2013] [debug] 206 Partial Content (0.001473s, 678.887/s).
+[Sat Jul 13 20:09:46 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//01-Kalpol%20Introl.mp3".
+[Sat Jul 13 20:09:46 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:09:46 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:09:46 2013] [debug] 206 Partial Content (0.001520s, 657.895/s).
+[Sat Jul 13 20:12:50 2013] [debug] GET "/d/%5B1997%5D%20Chiastic%20Slide/".
+[Sat Jul 13 20:12:50 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:12:50 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:12:50 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:12:50 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:12:50 2013] [debug] 200 OK (0.066989s, 14.928/s).
+[Sat Jul 13 20:13:06 2013] [debug] GET "/d/%5B1993%5D%20Incunabula//02-Bike.mp3".
+[Sat Jul 13 20:13:06 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:13:06 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:13:06 2013] [debug] 206 Partial Content (0.001715s, 583.090/s).
+[Sat Jul 13 20:13:51 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:13:51 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:13:51 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:13:51 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:13:51 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:13:51 2013] [debug] 200 OK (0.072649s, 13.765/s).
+[Sat Jul 13 20:13:52 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:13:52 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:13:52 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:13:52 2013] [debug] 304 Not Modified (0.001295s, 772.201/s).
+[Sat Jul 13 20:13:58 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/".
+[Sat Jul 13 20:13:58 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:13:58 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:13:58 2013] [debug] Rendering cached template "disk/get.html.ep".
+[Sat Jul 13 20:13:58 2013] [debug] Rendering cached template "layouts/shara.html.ep".
+[Sat Jul 13 20:13:58 2013] [debug] 200 OK (0.085812s, 11.653/s).
+[Sat Jul 13 20:13:59 2013] [debug] GET "/d/%5B1993%5D%20Incunabula/front.jpg".
+[Sat Jul 13 20:13:59 2013] [debug] Routing to a callback.
+[Sat Jul 13 20:13:59 2013] [debug] Routing to controller "Shara::Disk" and action "get".
+[Sat Jul 13 20:13:59 2013] [debug] 304 Not Modified (0.001476s, 677.507/s).

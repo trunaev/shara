@@ -1,28 +1,31 @@
-package Shara::List;
+package Shara::Disk;
 use Mojo::Base 'Mojolicious::Controller';
 
  use Mojolicious::Static;
  
 use 5.014;
 use utf8;
-use Encode;
- #use locale;
- #use POSIX qw(locale_h);
- 
- use Text::Iconv;
- use Encode 'from_to';
+
+use Encode 'from_to';
+
+use HTML::Entities qw(decode_entities);
 use Mojo::Util;
+use MP3::Tag;
+
+sub base_dir {
+	return 'C:/Users/megatron/Desktop/au/';
+}
+
+
 
 sub read_dir {
 	my $self = shift;
 	my $dir  = shift;
 	
-	
 	opendir(my $dh, $dir) || die "can't open dir";
-	#binmode($dh, ':utf8');
 	my @dir_data = grep {!($_ ~~ ['.','..'])} readdir($dh);
-	#@dir_data = sort map {Encode::decode('cp1251', $_)} @dir_data;
-	
+	closedir $dh;
+
 	my (@dirs, @files);
 	for (@dir_data) {
 		if (-d $dir . $_) {
@@ -36,15 +39,31 @@ sub read_dir {
 
 }
 
-# This action will render a template
-sub list {
+sub get {
 	my $self = shift;
+	#die 123;
 	
-	my $base_dir = 'C:/Users/megatron/Desktop/au/';
-	my $dir = $base_dir;
-	if (my $pref = $self->stash('dir')) {
-		$dir .= Encode::encode('cp1251', $pref);
+	my $base_dir = $self->base_dir;
+	my $path = $self->stash('path');
+	if ($path) {
+		$path = decode_entities($path);
+		$path = Encode::encode('cp1251', $path);
 	}
+
+	if (-f $base_dir . $path) {
+		my $static = Mojolicious::Static->new(paths=>[$base_dir]);
+		if ($path =~ /\.(mp3|ogg)$/i) {
+			my $fname = $path;
+			$fname =~ s/^.*?([^\\\/]+)$/$1/;
+			$self->res->headers->content_disposition(qq[attatchment; filename="$fname"]);
+		}
+
+	    $static->serve($self, $path);
+	    return $self->rendered;
+	}
+	
+	my $dir = $base_dir . $path;
+	return $self->render_not_found unless -d $dir;
 
 	my ($dirs, $files) = $self->read_dir($dir);
 	
@@ -75,6 +94,7 @@ sub list {
 		my @others;
 		for (@$files) {
 			if (/\.(mp3|ogg)$/i) {
+				my $format = lc $1;
 				my $title = $_;
 				$title =~ s/\.mp3$//;
 				if ($title =~ /^\d{1,2}\s*-\s*/) {
@@ -82,9 +102,14 @@ sub list {
 				} elsif ($title =~ /^\d{1,2}\.\s+/) {
 					$title =~ s/^\d{1,2}\.\s+//;
 				}
+				my $mp3 = MP3::Tag->new($dir.'/'.$_);
+				my ($title2, $track, $artist, $album, $comment, $year, $genre) = $mp3->autoinfo();
 				push @tracks, {
-					file 	=> $_,
-					title 	=> $title,
+					$format	=> '/d/'. $path.'/'.$_,
+					title 	=> ($artist && 0 ? "$artist - " : '') . $title2 || $title,
+					artist	=> $artist,
+					cover	=> $self->stash ('cover'),
+					file	=> $_,
 				};
 			} else {
 				push @others, $_;
@@ -96,28 +121,6 @@ sub list {
 		);
 	}
 }
-
-# This action will render a template
-sub file {
-	my $self = shift;
-	use  HTML::Entities qw(decode_entities);
-	
-	my $base_dir = 'C:/Users/megatron/Desktop/au/';
-	my $file = decode_entities($self->stash('file')) or die 'no file';
-	#$file = $base_dir . $file;
-	#die 'no file ' . $file unless -f $file;
-	#die $file;
-	
-	my $static = Mojolicious::Static->new(paths=>[$base_dir]);
-	my $fname = $file;
-	$fname =~ s/^.*?([^\\\/]+)$/$1/;
-	$self->res->headers->content_disposition(qq[attatchment; filename="$fname"]);
-	
-    # Send
-    $static->serve($self, $file);
-    $self->rendered;
-}
-
 
 
 1;

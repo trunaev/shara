@@ -122,7 +122,7 @@
                     });
 
                     $myJplayer.bind($.jPlayer.event.pause, function(event) {
-                    	alert('pause??');
+                    	//alert('pause??');
                         playing = false;
                     });
 

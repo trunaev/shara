@@ -29,9 +29,9 @@
           <a class="brand" href="/">Шара</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-% my $dir = stash 'dir';
-% if ($dir) {
-%	my @parts = split /\//, $dir;
+% my $path = stash 'path';
+% if ($path) {
+%	my @parts = split /\//, $path;
 %	my $p = '';
 %	for (@parts) {
 %		$p .= $_ .  '/';

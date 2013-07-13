@@ -12,3 +12,4 @@ Create Tagfile=0
 [Files]
 0=.\lib\
 1=.\public\
+2=.\templates\
