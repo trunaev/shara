@@ -1,0 +1,72 @@
+% layout 'default';
+% title 'Shara';
+% use URI::Escape;
+% my $tracks = stash ('tracks') || [];
+% my $cover = stash ('cover');
+
+
+<div class="row-fluid">
+% if (@$tracks) {
+<div class="span6" style="width:300px">
+    <link rel="stylesheet" type="text/css" href="/music-player/plugin/css/style.css">
+    <script type="text/javascript" src="/music-player/demo/js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="/music-player/plugin/jquery-jplayer/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="/music-player/plugin/ttw-music-player.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+% use Mojo::JSON;
+% my $json = Mojo::JSON->new;
+% $cover = '/file/' . stash("dir") .  $cover if $cover;
+% my $pl = [map {{mp3 => '/file/' . stash('dir') . $_->{file}, title => $_->{title}, cover => $cover}} @$tracks];
+        	var myPlaylist = <%== $json->encode($pl) %>;
+        	
+            var description = '';
+
+            $('#player').ttwMusicPlayer(myPlaylist, {
+                autoPlay:false, 
+                description:description,
+                jPlayer:{
+                	solution: 'html, flash',
+                	preload: 'auto',
+                    swfPath:'/music-player/plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                }
+            });
+        });
+    </script>
+
+
+
+
+
+<div id="player">
+</div>
+</div>
+% }
+<div class="span6">
+
+<ul class="nav nav-tabs  nav-stacked tracks" style="height: 190px;">
+% if (stash 'dir') {
+	<li><a href="../">..</a></li>
+% }
+% for (@$dirs) {
+	<li><a href="/d/<%= stash 'dir' %><%= $_  %>/"><strong><%= $_ %></strong></a></li>
+% }
+
+% for (my $i = 0 ; $i < @$tracks ; $i ++) {
+	<li class="track nav nav-tabs nav-stacked" rel="<%= $i %>"><a class="title" href="/file/<%= stash 'dir' %><%= $tracks->[$i]->{file}  %>"><%= $tracks->[$i]->{title} %></a></li>
+% }
+
+<li><hr/></li>
+% for (@{stash ('others') || []}) {
+	<li><a href="/file/<%= stash 'dir' %><%= $_  %>"><%= $_ %></a></li>
+% }
+
+
+</ul>
+		
+	</div>
+
+
+
+</div>
