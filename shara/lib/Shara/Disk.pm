@@ -7,15 +7,17 @@ use 5.014;
 use utf8;
 
 use Encode 'from_to';
-
+use Encode;
+require Encode::Detect;
+  
 use HTML::Entities qw(decode_entities);
 use Mojo::Util;
 use MP3::Tag;
+use MP3::Info;
 
 sub base_dir {
-	return 'C:/Users/megatron/Desktop/au/';
+	return 'C:/Users/megatron/Music/';
 }
-
 
 
 sub read_dir {
@@ -45,7 +47,14 @@ sub get {
 	
 	my $base_dir = $self->base_dir;
 	my $path = $self->stash('path');
+	my $path_orig = $path;
 	if ($path) {
+		#die $path;
+		eval {
+			$path = decode('cp1251', $path);
+		};
+		#$path = decode('cp1251', $path);
+		#die $path;
 		$path = decode_entities($path);
 		$path = Encode::encode('cp1251', $path);
 	}
@@ -64,19 +73,26 @@ sub get {
 	
 	my $dir = $base_dir . $path;
 	return $self->render_not_found unless -d $dir;
+	$self->stash->{subdirs} //= [];
+	if ($path) {
+		my @parts = grep {$_} split /\//, $path;
+		if (@parts > 1) {
+			my ($dirs, $files) = $self->read_dir($base_dir . $parts[0]. '/');
+			$self->stash->{subdirs} //= [];
+			$self->stash->{subdirs}->[0] = $dirs if @$dirs > 1;
+			#use Data::Dumper;
+			#die Dumper $dirs;
+			#die Dumper $self->stash->{subdirs};
+		}		
+	}
 
 	my ($dirs, $files) = $self->read_dir($dir);
 	
 	$self->stash(dirs	=> $dirs);
 	$self->stash(files 	=> $files);
 	
-	if ($self->param('tar')) {
-		use Archive::Tar;
-		
-	}	
-	
 	if (@$files) {
-		if (my @images = grep {/\.(jpg|png)$/i} @$files) {
+		if (my @images = grep {/\.(jpe?g|png|gif)$/i} @$files) {
 			for my $check_name (qw(folder front cover album top)) {
 				for my $img (@images) {
 					my $i = lc $img;
@@ -92,8 +108,9 @@ sub get {
 		}
 		my @tracks;
 		my @others;
-		for (@$files) {
-			if (/\.(mp3|ogg)$/i) {
+		#my $dir = Encode::encode('cp1251', $path);
+		for my $f (@$files) {
+			if ($f =~ /\.(mp3|ogg)$/i) {
 				my $format = lc $1;
 				my $title = $_;
 				$title =~ s/\.mp3$//;
@@ -102,17 +119,39 @@ sub get {
 				} elsif ($title =~ /^\d{1,2}\.\s+/) {
 					$title =~ s/^\d{1,2}\.\s+//;
 				}
-				my $mp3 = MP3::Tag->new($dir.'/'.$_);
+
+				my $mp3_path = $dir;
+				eval { 
+					#	$mp3_path .= $_;
+						$mp3_path .= Encode::encode('cp1251', $f);
+				};
+				die $mp3_path . ' - ' . $@ if $@;
+				my $mp3 = new MP3::Tag($mp3_path);
 				my ($title2, $track, $artist, $album, $comment, $year, $genre) = $mp3->autoinfo();
+				#my $_mp3 = get_mp3tag($mp3_path);				
+				#my $title2 = $mp3
+				#use Data::Dumper;
+				#die Dumper $_mp3;
+				my $num = $track;
+				my $file = '/d/'. $path_orig.$f;
+				#die $file;
+				$title = $title2 || $title;
+				#die $title;
+				eval {$title = decode('cp1251', $title)};
+				eval {$artist = decode('cp1251', $artist)};
+				my $cover = $self->stash('cover');
+				# $cover = '/d/'. $path_orig. $cover if $cover;
+				
 				push @tracks, {
-					$format	=> '/d/'. $path.'/'.$_,
-					title 	=> ($artist && 0 ? "$artist - " : '') . $title2 || $title,
+					$format	=> $file,
+					title 	=> $title,
 					artist	=> $artist,
-					cover	=> $self->stash ('cover'),
-					file	=> $_,
+					cover	=> $cover,
+					file	=> $f,
+					track	=> $num,
 				};
 			} else {
-				push @others, $_;
+				push @others, $f;
 			}
 		}
 		$self->stash(

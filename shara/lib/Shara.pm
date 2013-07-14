@@ -1,6 +1,7 @@
 package Shara;
 use Mojo::Base 'Mojolicious';
 
+use URI::Escape;
 
 use constant SECRET => '$Xv_e&5[#';
 
@@ -16,7 +17,8 @@ sub startup {
 	my $r0 = $self->routes;
 	my $r = $r0->under(sub{
 		if (!$_[0]->session->{auth}){
-			return $_[0]->redirect_to('/');
+			my $req = $_[0]->req->url->to_string;
+			return $_[0]->redirect_to('/?back_to='.uri_escape($req));
 		}
 		return 1;
 	});

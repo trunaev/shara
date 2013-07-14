@@ -4,17 +4,29 @@
    	<title><%= title %></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-   
-
+ 
     <!-- Le styles -->
     <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/dropdowns.css" rel="stylesheet">
     <style>
-      body {
+      body  {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       }
     </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+
+<script type="text/javascript" src="/js/jquery.1.9.1.js"></script>
+<script>
+/*Browser detection patch*/
+jQuery.browser = {};
+jQuery.browser.mozilla = /mozilla/.test(navigator.userAgent.toLowerCase()) && !/webkit/.test(navigator.userAgent.toLowerCase());
+jQuery.browser.webkit = /webkit/.test(navigator.userAgent.toLowerCase());
+jQuery.browser.opera = /opera/.test(navigator.userAgent.toLowerCase());
+jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
+</script>
+    <script src="/bootstrap/js/bootstrap.js"></script>
+    <scri1pt src="/js/dropdown.js"></scri1pt>
+    
 	</head>
   <body>
 
@@ -26,18 +38,43 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="/">Шара</a>
+
+% my $path = stash 'path';
+% my @path_parts;
+% if ($path) {
+%	@path_parts = split /\//, $path;
+% }
+% if (0 && @path_parts) {
+          <a class="brand" href="#"><%= pop @path_parts %></a>
+% } else {
+          <a class="brand" href="/">Shara</a>
+% }
           <div class="nav-collapse collapse">
             <ul class="nav">
-% my $path = stash 'path';
-% if ($path) {
-%	my @parts = split /\//, $path;
-%	my $p = '';
-%	for (@parts) {
-%		$p .= $_ .  '/';
-<li><a href="/d/<%= $p %>"><%= $_ %></a></li>
+
+
+
+              
+% my $p = '';
+% my @buff;
+% my $i = -1;
+% for (@path_parts) { $i++;
+%	$p .= $_ .  '/';
+				<li>
+					<a href="/d/<%= $p %>" style="float: left;"><%= $_ %></a>
+%	if (my $sd = stash ('subdirs')->[$i]) {
+					<a href="#" data-toggle="dropdown" class="dropdown-toggle" style="float: left;">
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu bullet">
+%		for (@$sd) {
+                        <li><a href="/d/<%= $p . $_ %>"><%= $_ %></a></li>
+%		}
+                    </ul>
 %	}
+				</li>
 % }
+%#== join ',', @buff;
+
 
 
             </ul>
@@ -45,8 +82,12 @@
         </div>
       </div>
     </div>
-    
-    <div class="container">
+
+    <div class="container" id="content">
+    	
+    	
+
+    	
     	<%= content %>
     </div> <!-- /container -->
   </body>

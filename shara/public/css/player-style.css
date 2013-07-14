@@ -124,7 +124,6 @@
     border-radius: 6px;
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
-    background: transparent url(../images/player-bg.png) repeat 0 0 scroll;
     float: left;
 
 }
@@ -175,9 +174,9 @@
 
 .ttw-music-player .progress-wrapper {
     height: 9px;
-    width: 135px;
+    width: 100%;
     float: left;
-    background: transparent url(../images/player-progress.png) repeat-x 0 0 scroll;
+    background: transparent url(/i/player/player-progress.png) repeat-x 0 0 scroll;
     margin: 11px 10px 10px 0;
     border-radius: 4px;
     -moz-border-radius: 4px;
@@ -186,7 +185,7 @@
 
 .ttw-music-player .progress {
     height: 9px;
-    width: 135px;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -197,7 +196,7 @@
     -webkit-border-radius: 3px;
     margin: 1px;
     width: 60%;
-    background: transparent url(../images/player-elapsed.png) repeat-x 0 0 scroll;
+    background: transparent url(/i/player/player-elapsed.png) repeat-x 0 0 scroll;
 }
 
 .ttw-music-player .unused-controls {

@@ -14,7 +14,7 @@ sub signin {
 		#die $pass;
 		if ($pass eq $self->config('password')) {
 			$self->session(auth => 1);
-			return $self->redirect_to('/');
+			return $self->redirect_to($self->param('back_to') || '/');
 		}
 	}
 }

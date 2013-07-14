@@ -8,6 +8,9 @@
   <form class="form-signin" method="POST" action="/signin">
     <h2 class="form-signin-heading">Please sign in</h2>
 <!--    <input type="text" class="input-block-level" placeholder="Email address"> -->
+% if (param 'back_to') {
+	<input type="hidden" name="back_to" value="<%= param 'back_to' %>">
+% }
     <input type="password" name="key" class="input-block-level" placeholder="Password" value="<%= param 'key' %>">
 <!--     <label class="checkbox">
       <input type="checkbox" value="remember-me"> Remember me

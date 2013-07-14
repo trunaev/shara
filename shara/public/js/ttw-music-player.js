@@ -122,7 +122,6 @@
                     });
 
                     $myJplayer.bind($.jPlayer.event.pause, function(event) {
-                    	//alert('pause??');
                         playing = false;
                     });
 
@@ -141,7 +140,6 @@
 
                     $self.bind('mbInitPlaylistAdvance', function(e) {
                         var changeTo = this.getData('mbInitPlaylistAdvance');
-
                         if (changeTo != current) {
                             current = changeTo;
                             playlistAdvance(current);
@@ -193,6 +191,7 @@
 
             function playlistNext() {
                 var index = (current + 1 < myPlaylist.length) ? current + 1 : 0;
+                
                 playlistAdvance(index);
             }
 
@@ -208,16 +207,12 @@
             }
 
             function buildPlaylist() {
-                var $ratings = $();
-
-                $tracksWrapper = $self.find(cssSelector.tracks);
-
-                $tracks = $(cssSelector.track);
-
-                $('.title').click(function(e) {
-                	if( (!$.browser.msie && e.button == 0) || ($.browser.msie && e.button == 1) ) {
+                $('.track-title').click(function(e) {
+//                	if( (!$.browser.msie &&  == 0) || ($.browser.msie && e.button == 1) ) {
+                	if( e.button == 0 ) {
                 		e.preventDefault();
-                    	playlistAdvance($(this).parents('li').attr('rel'));
+                    	var id = parseInt($(this).attr('rel'));
+                    	playlistAdvance(id);
     				}
                 });
             }
@@ -262,56 +257,51 @@
                 var markup, $interface;
 
                 //I would normally use the templating plugin for something like this, but I wanted to keep this plugin's footprint as small as possible
-                markup = '<div class="ttw-music-player">' +
-                        '<div class="row-fluid"><div class="span6"><div class="player jp-interface">' +
-                        '<div class="album-cover" style="width:200px">' +
-                        '<span class="img"></span>' +
-                        '            <span class="highlight"></span>' +
-                        '        </div>' +
-                        '        <div class="track-info">' +
-                        '            <h1 class="title"></h1>' +
-                        '            <p class="artist-outer">By <span class="artist"></span></p>' +
-                        '        </div>' +
-                        '        <div class="player-controls">' +
-                        '            <div class="main">' +
-//                        '                <div class="previous jp-previous"></div>' +
-//                        '                <div class="play jp-play"></div>' +
-//                        '                <div class="pause jp-pause"></div>' +
-//                        '                <div class="next jp-next"></div>' +
-                        '<!-- These controls aren\'t used by this plugin, but jPlayer seems to require that they exist -->' +
-                        '                <span class="unused-controls">' +
-                        '                    <span class="jp-video-play"></span>' +
-                        '                    <span class="jp-stop"></span>' +
-                        '                    <span class="jp-mute"></span>' +
-                        '                    <span class="jp-unmute"></span>' +
-                        '                    <span class="jp-volume-bar"></span>' +
-                        '                    <span class="jp-volume-bar-value"></span>' +
-                        '                    <span class="jp-volume-max"></span>' +
-                        '                    <span class="jp-current-time"></span>' +
-                        '                    <span class="jp-duration"></span>' +
-                        '                    <span class="jp-full-screen"></span>' +
-                        '                    <span class="jp-restore-screen"></span>' +
-                        '                    <span class="jp-repeat"></span>' +
-                        '                    <span class="jp-repeat-off"></span>' +
-                        '                    <span class="jp-gui"></span>' +
-                        '                </span>' +
-                        '            <div class="progress-wrapper">' +
+                markup= '<div class="ttw-music-player" style="max-height: 260px;">' +
+                        '<div class="player jp-interface">' +
+                        
+                        '   <div class="album-cover" style="width:260px; z-index: 1; position: relative;">' +
+                        '   	<span class="img"></span>' +
+                        '      	<span class="highlight"></span>' +
+                        '   </div>' +
+                        
+                        '	<div id="shara-player" style="width:260px;Z-index:2; position: relative; opacity:0.85;">' +
+                        '   	<div class="track-info">' +
+                        '           <div  style="background-color: white; display: inline; float:left; padding-right: 10px;"><h3 class="title"></h3></div>' +
+                        '           <div class="artist-outer pull-left" style="background-color: white; display: inline-block;">By <span class="artist" style="font-size:1.5em;"></span></div><br/>' +
+
+
+                        '			<div class="pull-right" style="background-color: white; margin: 3px; display: inline; float:right z-index:5"><span class="jp-current-time"></span> / ' +
+	                    '					<span class="jp-duration"></span"></div>' +
+    	                ' 			</div>' +
+                        
+
+    							'<br/><br/><br/><br/><br/><br/><br/><br/><br/>'+
+                        '			<div class="progress-wrapper">' +
                         '                <div class="progress jp-seek-bar">' +
                         '                    <div class="elapsed jp-play-bar"></div>' +
                         '                </div>' +
-                        '            </div>' +
+                        '           </div>' +
+                        
+									'<div align="center"><div class="playback btn-group">' +
+										'<button class="prev jp-previous"><i class="icon-step-backward"></i></button>'+
+										'<button class="pause jp-pause"><i class="icon-pause"></i></button>'+
+										'<button class="play jp-play"><i class="icon-play"></i></button>'+
+										'<button class="next jp-next"><i class="icon-step-forward"></i></button>'+
+									'</div></div>'+
+									
+/*
+                        '       	<div class="row-fluid" style="background-color: white; width:50%;">Vol: <br/><div class="progress-wrapper">' +
+                        '                <div class="progress jp-volume-bar">' +
+                        '                    <div class="elapsed jp-volume-bar-value"></div>' +
+                        '                </div>' +
+                        '            </div></div>' +
+*/
 
-    '<div class="playback btn-group"><button class="prev jp-previous"><i class="icon-step-backward"></i></button>'+
-    			'<button class="play jp-pause"><i class="icon-pause"></i></button>'+
-    			'<button class="next jp-next"><i class="icon-step-forward"></i></button></div>' +
-                        '        </div>' +
-                        '    </div>' +
-                        '    </div><div class="span6"><p class="description"></p>' +
-//                        '    <div class="">' +
-//                        '        <ul class="nav nav-tabs nav-stacked tracks"> </ul>' +
-//                        '    </div>' +
-                        '    <div class="jPlayer-container"></div>' +
-                        '</div></div></div>';
+                        '    	<p class="description"></p>' +
+                        '   	<div class="jPlayer-container"></div>' +
+                        '	</div>' +
+                        '</div></div>';
 
                 $interface = $(markup).css({display:'none', opacity:0}).appendTo($self).slideDown('slow', function() {
                     $interface.animate({opacity:1});
@@ -334,12 +324,21 @@
 
             function setCover() {
                 $albumCover.animate({opacity:0}, 'fast', function() {
-                    if (!isUndefined(myPlaylist[current].cover)) {
+                	var cover = myPlaylist[current].cover || '/i/NoCover.jpg';
+                    if (!isUndefined(cover)) {
                         var now = current;
-                        $('<img src="' + myPlaylist[current].cover + '" alt="album cover" />', this).imagesLoaded(function(){
+                        $('<img src="' + cover + '" alt="album cover" />', this).imagesLoaded(function(){
                             if(now == current)
-                                $albumCover.html($(this)).animate({opacity:1})
-                        });
+                                $albumCover.html($(this)).animate({opacity:1});
+                            $('#shara-player').css({'top': '-'+($('.album-cover').height())+'px'});
+                             $('#shara-player').css({'display': 'block'});
+                            $('.player').height('260px');
+ 
+
+                         });
+                     } else {
+                     	// $('#shara-player').css({'display': 'block'});
+                     	// $('#shara-player').css({'display': 'block'});
                     }
                 });
             }
