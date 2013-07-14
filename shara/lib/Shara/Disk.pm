@@ -36,6 +36,8 @@ sub read_dir {
 			push @files, Encode::decode('cp1251',$_);
 		}
 	}
+	@dirs = sort @dirs;
+	@files = sort @files;
 		
 	return (\@dirs, \@files);
 
@@ -133,6 +135,12 @@ sub get {
 				#use Data::Dumper;
 				#die Dumper $_mp3;
 				my $num = $track;
+				if ($num) {
+					if ($num =~ /^(\d+)\/\d+$/) {
+						$num = $1;
+					}
+					$num = int $num if ($num =~ /^\d+$/);
+				}
 				my $file = '/d/'. $path_orig.$f;
 				#die $file;
 				$title = $title2 || $title;

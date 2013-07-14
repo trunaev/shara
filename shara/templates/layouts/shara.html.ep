@@ -3,29 +3,64 @@
    <head>
    	<title><%= title %></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
  
     <!-- Le styles -->
     <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="/css/dropdowns.css" rel="stylesheet">
-    <style>
-      body  {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
+	<style>
+		body  {
+			padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+			font-size: 1.2em;
+	    }
+		#content {
+	//		max-width: 460px;	
+		//	float: left;
+		}
+% if (stash ('tracks') && stash ('cover')) {
+		.audiojs { 
+			position: relative; 
+			top: -36px;
+			// zoom: 60%;
+	};
+% }
+
+
     </style>
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 
 <script type="text/javascript" src="/js/jquery.1.9.1.js"></script>
+<script src="/audiojs/audio.min.js"></script>
 <script>
-/*Browser detection patch*/
+	$(function() { 
+		if (navigator.userAgent.match(/iPhone/i)) {
+	        //cache the viewport tag if the user is using an iPhone
+	        var $viewport = $('head').children('meta[name="viewport"]');
+	        //bind an event handler to the window object for the orientationchange event
+	        $('body').css({'font-size': '1.7em'});
+	        $(window).bind('orientationchange', function() {
+	            if (window.orientation == 90 || window.orientation == -90 || window.orientation == 270) {
+	
+	                //landscape
+	                $viewport.attr('content', 'height=device-width,width=device-height,initial-scale=0.6,maximum-scale=0.6');
+	            } else {
+	
+	                //portrait
+	                $viewport.attr('content', 'height=device-height,width=device-width,initial-scale=0.6,maximum-scale=0.6');
+	            }
+	
+	        //trigger an orientationchange event on the window object to initialize this code (basically in-case the user opens the page in landscape mode)
+	        }).trigger('orientationchange');
+		}
+	});
+/*Browser detection patch
 jQuery.browser = {};
 jQuery.browser.mozilla = /mozilla/.test(navigator.userAgent.toLowerCase()) && !/webkit/.test(navigator.userAgent.toLowerCase());
 jQuery.browser.webkit = /webkit/.test(navigator.userAgent.toLowerCase());
 jQuery.browser.opera = /opera/.test(navigator.userAgent.toLowerCase());
 jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
+*/
 </script>
     <script src="/bootstrap/js/bootstrap.js"></script>
-    <scri1pt src="/js/dropdown.js"></scri1pt>
     
 	</head>
   <body>
@@ -51,10 +86,7 @@ jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
 % }
           <div class="nav-collapse collapse">
             <ul class="nav">
-
-
-
-              
+             
 % my $p = '';
 % my @buff;
 % my $i = -1;
@@ -74,21 +106,15 @@ jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
 				</li>
 % }
 %#== join ',', @buff;
-
-
-
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
 
+	<div class="container">
     <div class="container" id="content">
-    	
-    	
-
-    	
     	<%= content %>
-    </div> <!-- /container -->
+    </div></div> <!-- /container -->
   </body>
 </html>

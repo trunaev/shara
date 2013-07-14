@@ -1,7 +1,7 @@
 % my $title = '';
 % if (my $path = stash 'path') {
 %	my @parts = reverse split /\//, $path;
-%	$parts[0] =~ s/^\[?\d{4}\]?\s*(-|\.)?\s*//;
+%	$parts[0] =~ s/^(\[|\()?\d{4}(\]|\))?\s*(-|\.)?\s*//;
 %	$title = join ' / ', @parts;
 %	$title .= ' / ';
 % }
@@ -11,76 +11,93 @@
 % my $tracks = stash ('tracks') || [];
 % my $cover = stash ('cover');
 
-
-<div class="row-fluid">
+<div class="row-fluid pull-left">
 % if (@$tracks) {
-<div class="span6" style="width:300px">
-    <link rel="stylesheet" type="text/css" href="/css/player-style.css">
-    
-    <script type="text/javascript" src="/js/jquery.jplayer.js"></script>
-    <script type="text/javascript" src="/js/ttw-music-player.js"></script>
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-% use JSON;
-% my $json = JSON->new->latin1;
-% $cover = '/file/' . stash("path") . $cover if $cover;
-% my $pl = $tracks;
-        	var myPlaylist = <%== $json->encode($pl) %>;
-        	
-            var description = '';
-
-            $('#player').ttwMusicPlayer(myPlaylist, {
-                autoPlay:false, 
-                description:description,
-                jPlayer:{
-                	solution: 'flash, html',
-                	// solution: 'html, flash',
-                	preload: 'auto',
-                    swfPath:'/js' //You need to override the default swf path any time the directory structure changes
-                }
-            });
-        });
-    </script>
-
-
-
-
-
-<div id="player" style="height: 300px; overflow:hidden;">
-</div>
-</div>
+	<div class="span5" style="width: 460px;">
+% 	if ($cover) {
+		<div style="width: 460px; max-height: 460px; overflow:hidden;"><img src="<%= $cover %>" style="width: 460px;"/></div>
+% 	}
+		<audio preload></audio>
+	</div>
+	<div class="span6" style="width: 460px">
 % }
-<div class="span6">
-
-<ul class="nav nav-tabs  nav-stacked tracks" style="height: 190px;">
+		<ul class="nav nav-tabs  nav-stacked tracks">
 % if (stash 'path') {
-	<li><a href="../">..</a></li>
+			<li><a href="../"><strong>..</strong></a></li>
 % }
 % for (@$dirs) {
-	<li><a href="/d/<%= stash 'path' %><%= $_  %>/"><strong><%= $_ %></strong></a></li>
+			<li><a href="/d/<%= stash 'path' %><%= $_  %>/"><strong><%= $_ %></strong></a></li>
 % }
 
 % if (@$tracks) {
+    		<ol class="nav nav-tabs  nav-stacked tracks">
 % 	for (my $i = 0 ; $i < @$tracks ; $i ++) {
-	<li class="track nav nav-tabs nav-stacked" rel="<%= $i %>">
-		<a class="track-title" href="/d/<%= stash 'path' %><%= $tracks->[$i]->{file}  %>" rel="<%= $i %>">
-			<font size="-2"><%= $tracks->[$i]->{track} %></font>
-			<%= $tracks->[$i]->{title} %>
-		</a>
-	</li>
+%		my $t	= $tracks->[$i];
+%		my $src = '/d/' . stash ('path') . $t->{file};
+				<li class="track nav nav-tabs nav-stacked" rel="<%= $i %>">
+					<a class="track-title" data-src="<%= $src %>" href="<%= $src %>" rel="<%= $i %>" style="font-size: 1.2em">
+						<font size="-2"><%= $t->{track} %></font>
+						<%= $t->{title} %>
+					</a>
+				</li>
 % 	}
-	<li><hr/></li>
+			</ol>
 % }
+
 % for (@{stash ('others') || []}) {
-	<li><a href="/d/<%= stash 'path' %><%= $_  %>"><%= $_ %></a></li>
+			<li><a href="/d/<%= stash 'path' %><%= $_  %>"><%= $_ %></a></li>
 % }
 
+			</ul>
 
-</ul>
-		
 	</div>
-
-
-
+% if (@$tracks) {
 </div>
+	
+	<script>
+	  $(function() { 
+	    // Setup the player to autoplay the next track
+	    var a = audiojs.createAll({
+	      trackEnded: function() {
+	        var next = $('ol li.playing').next();
+	        if (!next.length) next = $('ol li').first();
+	        next.addClass('playing').siblings().removeClass('playing');
+	        audio.load($('a', next).attr('data-src'));
+	        audio.play();
+	      }
+	    });
+	    
+	    // Load in the first track
+	    var audio = a[0];
+	        first = $('ol a').attr('data-src');
+	    $('ol li').first().addClass('playing');
+	    audio.load(first);
+	
+	    // Load in a track on click
+	    $('ol li').click(function(e) {
+	      e.preventDefault();
+	      $(this).addClass('playing').siblings().removeClass('playing');
+	      audio.load($('a', this).attr('data-src'));
+	      audio.play();
+	    });
+	    // Keyboard shortcuts
+	    $(document).keydown(function(e) {
+	      var unicode = e.charCode ? e.charCode : e.keyCode;
+	         // right arrow
+	      if (unicode == 39) {
+	        var next = $('li.playing').next();
+	        if (!next.length) next = $('ol li').first();
+	        next.click();
+	        // back arrow
+	      } else if (unicode == 37) {
+	        var prev = $('li.playing').prev();
+	        if (!prev.length) prev = $('ol li').last();
+	        prev.click();
+	        // spacebar
+	      } else if (unicode == 32) {
+	        audio.playPause();
+	      }
+	    })
+	  });
+	</script>
+% }
