@@ -1,19 +1,27 @@
 [Open Files]
 Active File Display Mode=3
 Active File Index=1
-Open File Line0=2936
-Open File Line1=455
-Open File Line2=261
-Open File Pos0=878
-Open File Pos1=76
-Open File Pos2=553
+Open File Line0=5478
+Open File Line1=198
+Open File Line2=43
+Open File Line3=0
+Open File Line4=187
+Open File Pos0=7092
+Open File Pos1=458
+Open File Pos2=470
+Open File Pos3=731
+Open File Pos4=27
 Open File Window Pos0=0,1,-1,-1,-8,-30,25,25,828,587
 Open File Window Pos1=2,3,-1,-1,-8,-30,50,50,182,491
-Open File Window Pos2=0,1,-1,-1,-8,-30,0,0,803,562
+Open File Window Pos2=0,1,-1,-1,-8,-30,0,0,893,562
+Open File Window Pos3=0,1,-1,-1,-8,-30,25,25,918,587
+Open File Window Pos4=0,1,-1,-1,-8,-30,75,75,968,637
 Open File0=C:\Users\megatron\Documents\shara\shara\templates\layouts\shara.html.ep
 Open File1=C:\Users\megatron\Documents\shara\shara\templates\disk\get.html.ep
-Open File2=C:\Users\megatron\Documents\shara\shara\lib\Shara\Disk.pm
-Open File3=
+Open File2=FTP::debian\/home/user/visual_cult/lib|VC.pm
+Open File3=C:\Users\megatron\Documents\shara\shara\lib\Shara.pm
+Open File4=C:\Users\megatron\Documents\shara\shara\lib\Shara\Controller\Disk.pm
+Open File5=
 Remember Files=1
 
 [Project Information]

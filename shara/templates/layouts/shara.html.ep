@@ -16,14 +16,19 @@
 	//		max-width: 460px;	
 		//	float: left;
 		}
-% if (stash ('tracks') && stash ('cover')) {
+% if (stash ('tracks')) {
 		.audiojs { 
 			position: relative; 
 			top: -36px;
 			// zoom: 60%;
-	};
+	}
 % }
 
+
+
+      li.playing { background-color: #eeeeee; }
+
+      li.playing:before { content: '♬'; width: 14px; height: 14px; padding: 3px; line-height: 14px; margin: 0px; position: absolute; left: -24px; top: 9px; color: #000; font-size: 13px; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2); }
 
     </style>
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
@@ -99,7 +104,7 @@ jQuery.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
                         <span class="caret"></span></a>
                     <ul class="dropdown-menu bullet">
 %		for (@$sd) {
-                        <li><a href="/d/<%= $p . $_ %>"><%= $_ %></a></li>
+                        <li><a href="/d/<%= $p . $_ %>/"><%= $_ %></a></li>
 %		}
                     </ul>
 %	}

@@ -11,51 +11,72 @@
 % my $tracks = stash ('tracks') || [];
 % my $cover = stash ('cover');
 
+
 <div class="row-fluid pull-left">
+	
+
 % if (@$tracks) {
-	<div class="span5" style="width: 460px;">
+	<div class="span5" style="width: 460px; height: 460px;">
+		<div class="container" style="width: 460px; height: 460px;">
 % 	if ($cover) {
-		<div style="width: 460px; max-height: 460px; overflow:hidden;"><img src="<%= $cover %>" style="width: 460px;"/></div>
+			<div style="width: 460px; height: 460px; overflow:hidden;"><img src="<%= $cover %>" style="width: 460px;"/></div>
 % 	}
+		</div>
 		<audio preload></audio>
+		<div class="container" style="width: 460px; height: 460px; z-index:2; position: relative; top: -498px; opacity: 0.8;">
+			<h1 style="background-color: white; display: inline;" id="title"><%= $tracks->[0]->{title} %></h1><br/>
+			<p style="background-color: white; display: inline;" id="author">By <span><%= $tracks->[0]->{artist} %></span></p>
+		</div>
 	</div>
 	<div class="span6" style="width: 460px">
 % }
-		<ul class="nav nav-tabs  nav-stacked tracks">
+
+
+	<ul class="nav nav-tabs  nav-stacked tracks">
 % if (stash 'path') {
-			<li><a href="../"><strong>..</strong></a></li>
+		<li><a href="../"><strong>..</strong></a></li>
 % }
 % for (@$dirs) {
-			<li><a href="/d/<%= stash 'path' %><%= $_  %>/"><strong><%= $_ %></strong></a></li>
+		<li><a href="/d/<%= stash 'path' %><%= $_  %>/"><strong><%= $_ %></strong></a></li>
 % }
-
 % if (@$tracks) {
-    		<ol class="nav nav-tabs  nav-stacked tracks">
+    	<ol class="nav nav-tabs  nav-stacked tracks">
 % 	for (my $i = 0 ; $i < @$tracks ; $i ++) {
 %		my $t	= $tracks->[$i];
 %		my $src = '/d/' . stash ('path') . $t->{file};
-				<li class="track nav nav-tabs nav-stacked" rel="<%= $i %>">
-					<a class="track-title" data-src="<%= $src %>" href="<%= $src %>" rel="<%= $i %>" style="font-size: 1.2em">
-						<font size="-2"><%= $t->{track} %></font>
-						<%= $t->{title} %>
-					</a>
-				</li>
+			<li class="track" rel="<%= $i %>">
+				<a class="track-title" data-src="<%= $src %>" href="<%= $src %>" rel="<%= $i %>" style="font-size: 1.2em">
+					<font size="-2"><%= $t->{track} %></font>
+					<%= $t->{title} %>
+				</a>
+			</li>
 % 	}
-			</ol>
+		</ol>
 % }
 
 % for (@{stash ('others') || []}) {
-			<li><a href="/d/<%= stash 'path' %><%= $_  %>"><%= $_ %></a></li>
+		<li><a href="/d/<%= stash 'path' %><%= $_  %>"><%= $_ %></a></li>
 % }
 
-			</ul>
+	</ul>
 
-	</div>
+
+
+</div>
+
+
 % if (@$tracks) {
 </div>
 	
 	<script>
+%	use JSON;
+	var myPlaylist = <%== JSON->new->latin1->encode($tracks) %>;
 	  $(function() { 
+	  	
+	  	function set_info (id) {
+	  		$('#title').html(myPlaylist[id]['title']);
+	  		$('#author').html(myPlaylist[id]['author']);
+	  	}
 	    // Setup the player to autoplay the next track
 	    var a = audiojs.createAll({
 	      trackEnded: function() {
@@ -63,6 +84,7 @@
 	        if (!next.length) next = $('ol li').first();
 	        next.addClass('playing').siblings().removeClass('playing');
 	        audio.load($('a', next).attr('data-src'));
+	        set_info(parseInt($('a', next).attr('rel')));
 	        audio.play();
 	      }
 	    });
@@ -72,13 +94,16 @@
 	        first = $('ol a').attr('data-src');
 	    $('ol li').first().addClass('playing');
 	    audio.load(first);
+	    set_info(parseInt($('ol a').attr('rel')));
 	
 	    // Load in a track on click
 	    $('ol li').click(function(e) {
 	      e.preventDefault();
 	      $(this).addClass('playing').siblings().removeClass('playing');
 	      audio.load($('a', this).attr('data-src'));
+	      set_info(parseInt($('a', this).attr('rel')));
 	      audio.play();
+	      
 	    });
 	    // Keyboard shortcuts
 	    $(document).keydown(function(e) {
@@ -95,6 +120,7 @@
 	        prev.click();
 	        // spacebar
 	      } else if (unicode == 32) {
+	      	e.preventDefault();
 	        audio.playPause();
 	      }
 	    })

@@ -1,4 +1,4 @@
-package Shara::Disk;
+package Shara::Controller::Disk;
 use Mojo::Base 'Mojolicious::Controller';
 
  use Mojolicious::Static;

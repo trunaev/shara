@@ -12,6 +12,8 @@ sub startup {
 	$self->secret(SECRET);
 	$self->sessions->cookie_name('s');
 	$self->sessions->default_expiration(0);
+	$self->routes->namespaces(['Shara::Controller']);
+	#$self->controller_class('Shara::Controller');
 
 	# Router
 	my $r0 = $self->routes;

@@ -1,4 +1,4 @@
-package Shara::Signin;
+package Shara::Controller::Signin;
 use Mojo::Base 'Mojolicious::Controller';
 
 use 5.014;
