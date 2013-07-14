@@ -9,23 +9,23 @@
 % title $title . 'Shara';
 
 % my $tracks = stash ('tracks') || [];
-% my $cover = stash ('cover');
+% my $cover = stash ('cover') || '/i/NoCover.jpg';
 
 
 <div class="row-fluid pull-left">
 	
 
 % if (@$tracks) {
-	<div class="span5" style="width: 460px; height: 460px;">
-		<div class="container" style="width: 460px; height: 460px;">
+	<div class="span5 cover">
+		<div class="container cover" style="overflow:hidden;">
 % 	if ($cover) {
-			<div style="width: 460px; height: 460px; overflow:hidden;"><img src="<%= $cover %>" style="width: 460px;"/></div>
+			<img src="<%= $cover %>" style="width: 460px; margin-top: -70px;"/>
 % 	}
 		</div>
 		<audio preload></audio>
-		<div class="container" style="width: 460px; height: 460px; z-index:2; position: relative; top: -498px; opacity: 0.8;">
-			<h1 style="background-color: white; display: inline;" id="title"><%= $tracks->[0]->{title} %></h1><br/>
-			<p style="background-color: white; display: inline;" id="author">By <span><%= $tracks->[0]->{artist} %></span></p>
+		<div class="cover-layer-2">
+			<h1 class="bg-white" id="title"><%= $tracks->[0]->{title} %></h1><br/>
+			<p class="bg-white" id="author">By <h2 class="bg-white"><%= $tracks->[0]->{artist} %></h2></p>
 		</div>
 	</div>
 	<div class="span6" style="width: 460px">
