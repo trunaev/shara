@@ -18,14 +18,38 @@
 % if (@$tracks) {
 	<div class="span5 cover">
 		<div class="container cover" style="overflow:hidden;">
-% 	if ($cover) {
-			<img src="<%= $cover %>" style="width: 460px; margin-top: -70px;"/>
-% 	}
+% 	my @images = ($cover, @{stash ('other_images') || []});
+			<div id="myCarousel" class="carousel slide cover">
+                <ul class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+%	for (1..scalar(@images)-1) {
+                  <li data-target="#myCarousel" data-slide-to="<%= $_ %>" class=""></li>
+%	}
+                </ul>
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="<%= shift @images %>" style="width: 460px; margin-top: -70px;"/>
+                  </div>
+%	for (@images) {
+                  <div class="item">
+                    <img src="<%= $_ %>" alt="">
+                  </div>
+%	}
+
+                </div>
+                <a class="ctl-prev-next left carousel-control" id="ctl-prev">‹</a>
+                <a class="ctl-prev-next right carousel-control" id="ctl-next">›</a>
+            </div>
+
 		</div>
 		<audio preload></audio>
 		<div class="cover-layer-2">
 			<h1 class="bg-white" id="title"><%= $tracks->[0]->{title} %></h1><br/>
 			<p class="bg-white" id="author">By <h2 class="bg-white"><%= $tracks->[0]->{artist} %></h2></p>
+		</div>
+		
+		<div class="container ctl-block" style="width:156px; position: relative; top: -368px; left: -8px;">
+			<a href="#" id="ctl-toggle-play"><img src="/i/pause_play_stop_black.png" id="ctl-img" class="ctl-play"/></a>
 		</div>
 	</div>
 	<div class="span6" style="width: 460px">
@@ -79,19 +103,30 @@
 	  	}
 	    // Setup the player to autoplay the next track
 	    var a = audiojs.createAll({
-	      trackEnded: function() {
-	        var next = $('ol li.playing').next();
-	        if (!next.length) next = $('ol li').first();
-	        next.addClass('playing').siblings().removeClass('playing');
-	        audio.load($('a', next).attr('data-src'));
-	        set_info(parseInt($('a', next).attr('rel')));
-	        audio.play();
-	      }
+
+	      	play: function() {
+	      		$('#ctl-img').removeClass('ctl-play').addClass('ctl-pause');
+      		},
+      		pause: function() {
+      			$('#ctl-img').removeClass('ctl-pause').addClass('ctl-play');
+      		},
+	      	trackEnded: function() {
+		        var next = $('ol li.playing').next();
+		        if (!next.length) next = $('ol li').first();
+		        next.addClass('playing').siblings().removeClass('playing');
+		        audio.load($('a', next).attr('data-src'));
+		        set_info(parseInt($('a', next).attr('rel')));
+		        audio.play();
+	      	}
 	    });
 	    
 	    // Load in the first track
 	    var audio = a[0];
-	        first = $('ol a').attr('data-src');
+	    
+	    // audio.c
+
+	    
+	    var first = $('ol a').attr('data-src');
 	    $('ol li').first().addClass('playing');
 	    audio.load(first);
 	    set_info(parseInt($('ol a').attr('rel')));
@@ -105,25 +140,46 @@
 	      audio.play();
 	      
 	    });
-	    // Keyboard shortcuts
-	    $(document).keydown(function(e) {
-	      var unicode = e.charCode ? e.charCode : e.keyCode;
-	         // right arrow
-	      if (unicode == 39) {
-	        var next = $('li.playing').next();
-	        if (!next.length) next = $('ol li').first();
-	        next.click();
-	        // back arrow
-	      } else if (unicode == 37) {
+	    
+	    $('#ctl-toggle-play').click(function(e) {
+	      e.preventDefault();
+	      audio.playPause();
+	    });
+	    
+	    function play_prev () {
 	        var prev = $('li.playing').prev();
 	        if (!prev.length) prev = $('ol li').last();
 	        prev.click();
-	        // spacebar
-	      } else if (unicode == 32) {
+	    }
+
+	    function play_next () {
+	        var next = $('li.playing').next();
+	        if (!next.length) next = $('ol li').first();
+	        next.click();
+	    }
+
+	    $('#ctl-prev').click(function(e) {
 	      	e.preventDefault();
-	        audio.playPause();
-	      }
-	    })
-	  });
+	      	play_prev();
+	    });
+
+	    $('#ctl-next').click(function(e) {
+	      	e.preventDefault();
+	      	play_next();
+	    });
+
+	    // Keyboard shortcuts
+	    $(document).keydown(function(e) {
+	    	var unicode = e.charCode ? e.charCode : e.keyCode;
+	      	if (unicode == 39) {		// right arrow
+	       		play_next();        
+	      	} else if (unicode == 37) {	// back arrow
+	        	play_prev();
+	      	} else if (unicode == 32) {	// spacebar
+	      		e.preventDefault();
+	        	audio.playPause();
+	    	}
+	    });
+	});
 	</script>
 % }

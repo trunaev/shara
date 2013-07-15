@@ -34,6 +34,52 @@
 			background-color: white; 
 			display: inline;
 		}
+		.ctl-block {
+			width: 156px; 
+			height: 156px; 
+			overflow:hidden; 
+			opacity: 0.5;
+			filter: alpha(opacity=50);
+			//display:inline;
+		}
+
+		.ctl-block:hover,
+		.ctl-block:focus {
+			  opacity: 0.7;
+			  filter: alpha(opacity=70);
+		}
+
+		.ctl-pause {
+			width: 550px; 
+			max-width: none;
+		}
+		.ctl-play {
+			width: 550px; 
+			max-width: none;
+			margin-left: -197px;
+		}
+		.ctl-prev-next {
+			top: 47% !important; 
+			zoom: 1.7;
+			cursor: pointer;
+		}
+		
+		.play-pause {
+			display: none;
+		}
+		.time {
+			display: none;
+		}
+		.audiojs .scrubber  {
+			width: 437px;
+		}
+		
+        .audiojs { 
+        	width: 460px; height: 36px; background: none; overflow: hidden; 
+        	font-family: monospace; font-size: 12px;
+        	-webkit-box-shadow:none; -o-box-shadow: none;
+        	opacity: 0.8;
+        } 
     </style>
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 

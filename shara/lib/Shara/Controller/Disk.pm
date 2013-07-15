@@ -107,6 +107,8 @@ sub get {
 				}
 			}
 			$self->stash(cover => $images[0]) unless $self->stash('cover');
+			my @other_images = grep {$_ ne $self->stash('cover')} @images;
+			$self->stash('other_images' => \@other_images) if @other_images;
 		}
 		my @tracks;
 		my @others;
