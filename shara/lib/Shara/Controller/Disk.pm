@@ -16,7 +16,7 @@ use MP3::Tag;
 use MP3::Info;
 
 sub base_dir {
-	return 'C:/Users/megatron/Music/';
+	return 'e:/mp3/';
 }
 
 
@@ -78,10 +78,14 @@ sub get {
 	$self->stash->{subdirs} //= [];
 	if ($path) {
 		my @parts = grep {$_} split /\//, $path;
-		if (@parts > 1) {
-			my ($dirs, $files) = $self->read_dir($base_dir . $parts[0]. '/');
-			$self->stash->{subdirs} //= [];
-			$self->stash->{subdirs}->[0] = $dirs if @$dirs > 1;
+		if (@parts >= 2) {
+			my $pref = '';
+			for (0..@parts-2) {
+				$pref .= $parts[$_] . '/';
+				my ($dirs, $files) = $self->read_dir($base_dir . $pref);
+				$self->stash->{subdirs} //= [];
+				$self->stash->{subdirs}->[$_] = $dirs if @$dirs > 1;
+			}
 			#use Data::Dumper;
 			#die Dumper $dirs;
 			#die Dumper $self->stash->{subdirs};
